@@ -1,0 +1,54 @@
+﻿@model Automarket.Domain.ViewModels.Car.CarViewModel
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+@{
+    var textTitle = Model?.Id == 0 ? "Изменение данных" : "Добавление данных";
+}
+
+<div style="padding: 10px;"></div>
+ <div class="col-md-12">
+    <div class="card-body">
+        <div class="card card-outline-secondary" style="background-color: white">
+            <div class="card-header">
+                <h3 class="mb-0 text-center ParagraphHome">@textTitle</h3>
+            </div>
+            <div class="card-body">
+                <form asp-action="Save" enctype="multipart/form-data">
+                    <input asp-for="Id" hidden />
+                    <div asp-validation-summary="All" style="font-size:23px; font-family:Impact, serif" class="text-danger text-center"></div>
+                    <div class="form-group">
+                        <label asp-for="Name"></label>
+                        <input asp-for="Name" class="form-control" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Model"></label>
+                        <input asp-for="Model" class="form-control" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Speed"></label>
+                        <input asp-for="Speed" class="form-control" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Description"></label>
+                        <textarea asp-for="Description" class="form-control"></textarea>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">₽</span>
+                        <input asp-for="Price" type="text" class="form-control">
+                        <span class="input-group-text">.00</span>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" asp-for="TypeCar" id="carTypeId"></select>
+                    </div>
+                    <div class="input-group mb-3">
+                      <input asp-for="Avatar" class="form-control" type="file">
+                    </div>
+                    <button class="btn btn-primary btn-lg float-right" type="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

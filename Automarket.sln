@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automarket", "Automarket\Automarket.csproj", "{E0DFC932-08A0-496B-B0C3-DF191EF102FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{25A9E4D1-C050-448E-8595-202B32374E67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automarket.Domain", "Automarket.Domain\Automarket.Domain.csproj", "{49D301C3-2DAD-4FEB-8BAD-CB832C46721D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{0E79E78D-BADD-4FED-9533-46FC55DAF420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automarket.DAL", "Automarket.DAL\Automarket.DAL.csproj", "{93078DE8-480B-4098-8AED-9EA0460DE930}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{BBCAB49C-1567-41CA-A9EB-025B256EFAB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automarket.Service", "Automarket.Service\Automarket.Service.csproj", "{ABCE5245-E327-495E-B774-1DC3992ECF00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0DFC932-08A0-496B-B0C3-DF191EF102FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0DFC932-08A0-496B-B0C3-DF191EF102FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0DFC932-08A0-496B-B0C3-DF191EF102FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0DFC932-08A0-496B-B0C3-DF191EF102FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49D301C3-2DAD-4FEB-8BAD-CB832C46721D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49D301C3-2DAD-4FEB-8BAD-CB832C46721D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49D301C3-2DAD-4FEB-8BAD-CB832C46721D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49D301C3-2DAD-4FEB-8BAD-CB832C46721D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93078DE8-480B-4098-8AED-9EA0460DE930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93078DE8-480B-4098-8AED-9EA0460DE930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93078DE8-480B-4098-8AED-9EA0460DE930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93078DE8-480B-4098-8AED-9EA0460DE930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABCE5245-E327-495E-B774-1DC3992ECF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCE5245-E327-495E-B774-1DC3992ECF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABCE5245-E327-495E-B774-1DC3992ECF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABCE5245-E327-495E-B774-1DC3992ECF00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49D301C3-2DAD-4FEB-8BAD-CB832C46721D} = {25A9E4D1-C050-448E-8595-202B32374E67}
+		{93078DE8-480B-4098-8AED-9EA0460DE930} = {0E79E78D-BADD-4FED-9533-46FC55DAF420}
+		{ABCE5245-E327-495E-B774-1DC3992ECF00} = {BBCAB49C-1567-41CA-A9EB-025B256EFAB2}
+	EndGlobalSection
+EndGlobal

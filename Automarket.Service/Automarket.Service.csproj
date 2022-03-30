@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>10</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Automarket.DAL\Automarket.DAL.csproj" />
+      <ProjectReference Include="..\Automarket.Domain\Automarket.Domain.csproj" />
+    </ItemGroup>
+
+</Project>

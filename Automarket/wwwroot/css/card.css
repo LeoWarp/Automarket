@@ -1,0 +1,18 @@
+﻿.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.card {
+    box-shadow: 4px 2px 2px 3px #c82333;
+}
+
+.card-title {
+    font-family: Impact, serif;
+    font-size: 25px;
+}
+
+.card-buttons-group {
+    text-align: right;
+    padding: 10px;
+}

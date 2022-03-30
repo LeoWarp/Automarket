@@ -1,0 +1,32 @@
+﻿.paragraphLayout {
+    font-size: 20px;
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    text-shadow: inherit;
+    color: black;
+    border-bottom: 3px solid #fff;
+}
+
+.paragraphRightShadow {
+    font-size: 20px;
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    text-shadow: inherit;
+    color: white;
+    border-bottom: 3px solid #fff;
+}
+
+.paragraphHome {
+    font-size: 20px;
+    font-family: 'Comic Sans MS', serif;
+    font-weight: bold;
+    text-shadow: initial;
+    text-align: center;
+}
+
+.paragraphH3{
+    text-align:center;
+    font-size:23px;
+    color:white;
+    font-family: Impact, serif;
+}
