@@ -51,7 +51,7 @@
                         </div>
                     </li>    
                 }
-                @if (User.Identity.IsAuthenticated)
+                @if (!User.Identity.IsAuthenticated)
                 {
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle paragraphLayout active text-black" href="#" data-toggle="dropdown" style="font-family:'Comic Sans MS'; font-weight: bold;">
@@ -63,8 +63,13 @@
                                     <div class="col-md-12">
                                         <ul class="nav flex-column paragraphHome">
                                             <li class="nav-item text-center">
-                                                <a class="nav-link active text-white" asp-controller="Car" asp-action="List">
+                                                <a class="nav-link active text-white" asp-controller="Car" asp-action="GetCars">
                                                     Список
+                                                </a>
+                                            </li>
+                                            <li class="nav-item text-center">
+                                                <a class="nav-link active text-white" asp-controller="Car" asp-action="Save">
+                                                    Добавление
                                                 </a>
                                             </li>
                                         </ul>
@@ -91,7 +96,7 @@
                                                 </a>
                                             </li>
                                             <li class="nav-item text-center">
-                                                <a class="nav-link active text-white" asp-controller="Admin" asp-action="Index">
+                                                <a class="nav-link active text-white" asp-controller="" asp-action="Index">
                                                     Пользователи
                                                 </a>
                                             </li>
@@ -106,7 +111,7 @@
 
             @if (User.Identity.IsAuthenticated)
             {
-                 <form method="post" asp-controller="Account" asp-action="Logout">
+                 <form method="post" asp-controller="" asp-action="">
                     <input class="btn btn-danger rounded" style="font-family:'Comic Sans MS'; font-weight: bold; font-size:20px;" type="submit" value="Выход" />
                 </form>
             }

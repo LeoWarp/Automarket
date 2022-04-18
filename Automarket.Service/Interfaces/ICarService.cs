@@ -12,7 +12,7 @@ namespace Automarket.Service.Interfaces
         
         Task<IBaseResponse<CarViewModel>> GetCar(int id);
 
-        Task<IBaseResponse<CarViewModel>> CreateCar(CarViewModel carViewModel);
+        Task<IBaseResponse<Car>> Create(CarViewModel car, byte[] imageData);
 
         Task<IBaseResponse<bool>> DeleteCar(int id);
 

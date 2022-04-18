@@ -9,7 +9,7 @@
 <div class="card mb-3">
     <div class="row g-0">
         <div class="col-md-4">
-            <img src="https://images.wallpaperscraft.ru/image/single/mercedes_benz_s_class_w222_112850_800x600.jpg" 
+            <img src="data:image/jpeg;base64,@Convert.ToBase64String(Model?.Image ?? Array.Empty<byte>())"
                  class="img-fluid rounded-start rounded" alt="@Model?.Name">
         </div>
         <div class="col-md-4">

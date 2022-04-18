@@ -6,3 +6,43 @@
     border: none;
     background-color: black !important; /*Смена цвета #2C3539*/
 }
+
+@media screen and (min-width: 992px) {
+    .navbar {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .navbar .nav-item {
+        padding: .5rem .5rem;
+        margin: 0 .25rem;
+    }
+
+    .navbar .dropdown {
+        position: static;
+    }
+
+    .navbar .dropdown-menu {
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 45px;
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.3s linear;
+    }
+
+    
+    .navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        transition: visibility 0s, opacity 0.3s linear;
+    }
+
+    .navbar .dropdown-menu {
+        border: 1px solid rgba(0,0,0,.15);
+        background-color: #fff;
+    }
+}

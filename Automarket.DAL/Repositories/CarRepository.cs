@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Automarket.DAL.Interfaces;
 using Automarket.Domain.Entity;
@@ -6,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Automarket.DAL.Repositories
 {
-    public class CarRepository : ICarRepository
+    public class CarRepository : IBaseRepository<Car>
     {
         private readonly ApplicationDbContext _db;
 
@@ -15,43 +16,29 @@ namespace Automarket.DAL.Repositories
             _db = db;
         }
 
-        public async Task<bool> Create(Car entity)
+        public async Task Create(Car entity)
         {
-            await _db.Car.AddAsync(entity);
+            await _db.Cars.AddAsync(entity);
             await _db.SaveChangesAsync();
-
-            return true;
         }
 
-        public async Task<Car> Get(int id)
+        public IQueryable<Car> GetAll()
         {
-            return await _db.Car.FirstOrDefaultAsync(x => x.Id == id);
+            return _db.Cars;
         }
 
-        public async Task<List<Car>> Select()
+        public async Task Delete(Car entity)
         {
-            return await _db.Car.ToListAsync();
-        }
-
-        public async Task<bool> Delete(Car entity)
-        {
-            _db.Car.Remove(entity);
+            _db.Cars.Remove(entity);
             await _db.SaveChangesAsync();
-
-            return true;
         }
 
         public async Task<Car> Update(Car entity)
         {
-            _db.Car.Update(entity);
+            _db.Cars.Update(entity);
             await _db.SaveChangesAsync();
 
             return entity;
-        }
-
-        public async Task<Car> GetByName(string name)
-        {
-            return await _db.Car.FirstOrDefaultAsync(x => x.Name == name);
         }
     }
 }

@@ -19,15 +19,8 @@ using Automarket;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 2 "C:\Users\leowa\Desktop\Automarket\Automarket\Views\_ViewImports.cshtml"
-using Automarket.Models;
-
-#line default
-#line hidden
-#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"101e29c025b7c28de6c86dbd7d29a3dfadd7316b", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ea89afa076838a456b05fd875eee46d14a4ea88b", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"813a23791d888ed01a1a77ea0c4d379408eced7f", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

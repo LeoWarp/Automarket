@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
 using Automarket.Domain.ViewModels.Car;
 using Automarket.Service.Interfaces;
@@ -24,7 +25,7 @@ namespace Automarket.Controllers
             {
                 return View(response.Data.ToList());   
             }
-            return RedirectToAction("Error");
+            return View("Error", $"{response.Description}");
         }
 
         [HttpGet]
@@ -35,7 +36,7 @@ namespace Automarket.Controllers
             {
                 return View(response.Data);
             }
-            return RedirectToAction("Error");
+            return View("Error", $"{response.Description}");
         }
         
         [Authorize(Roles = "Admin")]
@@ -46,43 +47,45 @@ namespace Automarket.Controllers
             {
                 return RedirectToAction("GetCars");
             }
-            return RedirectToAction("Error");
+            return View("Error", $"{response.Description}");
         }
 
         [HttpGet]
-        /*[Authorize(Roles = "Admin")]*/
         public async Task<IActionResult> Save(int id)
         {
-            if (id == 0)
-            {
+            if (id == 0) 
                 return View();
-            }
 
             var response = await _carService.GetCar(id);
             if (response.StatusCode == Domain.Enum.StatusCode.OK)
             {
                 return View(response.Data);
             }
-            
-            return RedirectToAction("Error");
+            return View("Error", $"{response.Description}");
         }
 
         [HttpPost]
         public async Task<IActionResult> Save(CarViewModel model)
         {
+            ModelState.Remove("DateCreate");
             if (ModelState.IsValid)
             {
                 if (model.Id == 0)
                 {
-                    await _carService.CreateCar(model);
+                    byte[] imageData;
+                    using (var binaryReader = new BinaryReader(model.Avatar.OpenReadStream()))
+                    {
+                        imageData = binaryReader.ReadBytes((int)model.Avatar.Length);
+                    }
+                    await _carService.Create(model, imageData);
                 }
                 else
                 {
                     await _carService.Edit(model.Id, model);
                 }
+                return RedirectToAction("GetCars");   
             }
-
-            return RedirectToAction("GetCars");
+            return View();
         }
     }
 }

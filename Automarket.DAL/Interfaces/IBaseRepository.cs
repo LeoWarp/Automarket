@@ -1,18 +1,15 @@
-﻿using System.Collections.Generic;
+﻿using System.Linq;
 using System.Threading.Tasks;
-using Automarket.Domain.Entity;
 
 namespace Automarket.DAL.Interfaces
 {
     public interface IBaseRepository<T>
     {
-        Task<bool> Create(T entity);
+        Task Create(T entity);
 
-        Task<T> Get(int id);
+        IQueryable<T> GetAll();
 
-        Task<List<T>> Select();
-
-        Task<bool> Delete(T entity);
+        Task Delete(T entity);
 
         Task<T> Update(T entity);
     }
