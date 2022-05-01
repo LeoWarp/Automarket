@@ -15,7 +15,6 @@ namespace Automarket.DAL
         public DbSet<Car> Cars { get; set; }
         
         public DbSet<User> Users { get; set; }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>(builder =>
@@ -33,6 +32,7 @@ namespace Automarket.DAL
                 builder.Property(x => x.Id)
                     .ValueGeneratedOnAdd();
 
+                builder.Property(x => x.Password).IsRequired();
                 builder.Property(x => x.Name).HasMaxLength(100).IsRequired();
             });
         }

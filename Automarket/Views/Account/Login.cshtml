@@ -26,11 +26,8 @@
                                 <div class="form-group">
                                     <input autocomplete="new-password" asp-for="Password" placeholder="Пароль" class="form-control textbox-dg font-weight-bold text-center" type="password">
                                 </div>
-                                <hr />
-                                <div class="mb-auto">
-                                    <h2 class="ParagraphHome text-center"><a asp-controller="Account" target="_blank" asp-action="Register" style="color:deepskyblue;">Регистрация</a></h2>
-                                </div>
-                                <button class="btn btn-primary btn-lg float-right" type="submit">Отправить</button>
+                                <a asp-controller="Account" asp-action="Register" type="button" class="btn btn-lg btn-primary float-right">Регистрация</a>
+                                <button class="btn btn-success btn-lg float-right">Отправить</button>
                             </form>
                         </div>
                     </div>

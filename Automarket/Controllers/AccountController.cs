@@ -33,6 +33,7 @@ namespace Automarket.Controllers
 
                     return RedirectToAction("Index", "Home");
                 }
+                ModelState.AddModelError("", response.Description);
             }
             return View(model);
         }
@@ -53,6 +54,7 @@ namespace Automarket.Controllers
 
                     return RedirectToAction("Index", "Home");
                 }
+                ModelState.AddModelError("", response.Description);
             }
             return View(model);
         }

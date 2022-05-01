@@ -39,6 +39,7 @@
           "Automarket.Service": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "6.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.4",
+          "NLog.Web.AspNetCore": "5.0.0-rc2",
           "Microsoft.AspNetCore.Antiforgery": "6.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "6.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "6.0.0.0",
@@ -808,6 +809,47 @@
             "assemblyVersion": "4.0.2.0",
             "fileVersion": "4.700.19.56404"
           }
+        }
+      },
+      "NLog/5.0.0-rc2": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.664"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/NLog.dll": {}
+        }
+      },
+      "NLog.Extensions.Logging/5.0.0-rc2": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "NLog": "5.0.0-rc2"
+        },
+        "runtime": {
+          "lib/net5.0/NLog.Extensions.Logging.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.111"
+          }
+        },
+        "compile": {
+          "lib/net5.0/NLog.Extensions.Logging.dll": {}
+        }
+      },
+      "NLog.Web.AspNetCore/5.0.0-rc2": {
+        "dependencies": {
+          "NLog.Extensions.Logging": "5.0.0-rc2"
+        },
+        "runtime": {
+          "lib/net5.0/NLog.Web.AspNetCore.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.131.0"
+          }
+        },
+        "compile": {
+          "lib/net5.0/NLog.Web.AspNetCore.dll": {}
         }
       },
       "System.Buffers/4.5.1": {},
@@ -2974,6 +3016,27 @@
       "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "NLog/5.0.0-rc2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F+y9t2obY9y0bxAaxvJJtbpBqFWkkqXZjMJPeT3SLqVvSNZq7aFax5cu57hkssHSDF1C/RsHT5uymcmPXgY9Vw==",
+      "path": "nlog/5.0.0-rc2",
+      "hashPath": "nlog.5.0.0-rc2.nupkg.sha512"
+    },
+    "NLog.Extensions.Logging/5.0.0-rc2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4xwjt+Utit8Jg0nORA2wWCpd6uUdF9B8HcYoTx21xqewDwbA88LzNvsx2uHsG09+a5nTcQL4cCA2HJaw+bvpDQ==",
+      "path": "nlog.extensions.logging/5.0.0-rc2",
+      "hashPath": "nlog.extensions.logging.5.0.0-rc2.nupkg.sha512"
+    },
+    "NLog.Web.AspNetCore/5.0.0-rc2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H+O1rdaAWb4WsHu7l6+/9TAgjtyO4h+VWmUusw7TjmJnl3ksz7xx/hHwFMXjjHXi5e2f60CilwCUUlPPwxH/Hg==",
+      "path": "nlog.web.aspnetcore/5.0.0-rc2",
+      "hashPath": "nlog.web.aspnetcore.5.0.0-rc2.nupkg.sha512"
     },
     "System.Buffers/4.5.1": {
       "type": "package",

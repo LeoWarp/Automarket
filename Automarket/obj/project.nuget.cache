@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XIXRVHS9a8P/RFdui0YSS/Ik+4sb2clnuip2Nrj2P02LL43m1E7M++FdBmIzgXN+yV/LBqkGo9UENElU10FFGA==",
+  "dgSpecHash": "/u+7Ypo1cSyLXt97ytaHSv+MBs/eXjqpaALyy3hGABci0xrvAYaAvieW/i7A2802HW6JFsgZ3ONP8Cs2EYyipg==",
   "success": true,
   "projectFilePath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\Automarket.csproj",
   "expectedPackageFiles": [
@@ -38,6 +38,9 @@
     "C:\\Users\\leowa\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\leowa\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\leowa\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\leowa\\.nuget\\packages\\nlog\\5.0.0-rc2\\nlog.5.0.0-rc2.nupkg.sha512",
+    "C:\\Users\\leowa\\.nuget\\packages\\nlog.extensions.logging\\5.0.0-rc2\\nlog.extensions.logging.5.0.0-rc2.nupkg.sha512",
+    "C:\\Users\\leowa\\.nuget\\packages\\nlog.web.aspnetcore\\5.0.0-rc2\\nlog.web.aspnetcore.5.0.0-rc2.nupkg.sha512",
     "C:\\Users\\leowa\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\leowa\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\leowa\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",

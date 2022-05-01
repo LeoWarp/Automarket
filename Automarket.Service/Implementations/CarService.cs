@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Automarket.DAL.Interfaces;
 using Automarket.Domain.Entity;
 using Automarket.Domain.Enum;
+using Automarket.Domain.Extensions;
 using Automarket.Domain.Response;
 using Automarket.Domain.ViewModels.Car;
 using Automarket.Service.Interfaces;
@@ -21,6 +22,29 @@ namespace Automarket.Service.Implementations
             _carRepository = carRepository;
         }
 
+        public BaseResponse<Dictionary<int, string>> GetTypes()
+        {
+            try
+            {
+                var types = ((TypeCar[]) Enum.GetValues(typeof(TypeCar)))
+                    .ToDictionary(k => (int) k, t => t.GetDisplayName());
+
+                return new BaseResponse<Dictionary<int, string>>()
+                {
+                    Data = types,
+                    StatusCode = StatusCode.OK
+                };
+            }
+            catch (Exception ex)
+            {
+                return new BaseResponse<Dictionary<int, string>>()
+                {
+                    Description = ex.Message,
+                    StatusCode = StatusCode.InternalServerError
+                };
+            }
+        }
+        
         public async Task<IBaseResponse<CarViewModel>> GetCar(int id)
         {
             try
@@ -39,7 +63,7 @@ namespace Automarket.Service.Implementations
                 {
                     DateCreate = car.DateCreate,
                     Description = car.Description,
-                    TypeCar = car.TypeCar.ToString(),
+                    TypeCar = car.TypeCar.GetDisplayName(),
                     Speed = car.Speed,
                     Model = car.Model,
                     Image = car.Avatar,
@@ -66,7 +90,7 @@ namespace Automarket.Service.Implementations
             try
             {
                 var car = new Car()
-                {
+                {    
                     Name = model.Name,
                     Model = model.Model,
                     Description = model.Description,
@@ -127,36 +151,6 @@ namespace Automarket.Service.Implementations
             }
         }
 
-        public async Task<IBaseResponse<Car>> GetCarByName(string name)
-        {
-            try
-            {
-                var car = await _carRepository.GetAll().FirstOrDefaultAsync(x => x.Name == name);
-                if (car == null)
-                {
-                    return new BaseResponse<Car>()
-                    {
-                        Description = "User not found",
-                        StatusCode = StatusCode.UserNotFound
-                    };
-                }
-
-                return new BaseResponse<Car>()
-                {
-                    Data = car,
-                    StatusCode = StatusCode.OK,
-                };
-            }
-            catch (Exception ex)
-            {
-                return new BaseResponse<Car>()
-                {
-                    Description = $"[GetCarByName] : {ex.Message}",
-                    StatusCode = StatusCode.InternalServerError
-                };
-            }
-        }
-
         public async Task<IBaseResponse<Car>> Edit(int id, CarViewModel model)
         {
             try
@@ -198,21 +192,21 @@ namespace Automarket.Service.Implementations
             }
         }
 
-        public async Task<IBaseResponse<IEnumerable<Car>>> GetCars()
+        public IBaseResponse<List<Car>> GetCars()
         {
             try
             {
-                var cars = _carRepository.GetAll();
+                var cars = _carRepository.GetAll().ToList();
                 if (!cars.Any())
                 {
-                    return new BaseResponse<IEnumerable<Car>>()
+                    return new BaseResponse<List<Car>>()
                     {
                         Description = "Найдено 0 элементов",
                         StatusCode = StatusCode.OK
                     };
                 }
                 
-                return new BaseResponse<IEnumerable<Car>>()
+                return new BaseResponse<List<Car>>()
                 {
                     Data = cars,
                     StatusCode = StatusCode.OK
@@ -220,7 +214,7 @@ namespace Automarket.Service.Implementations
             }
             catch (Exception ex)
             {
-                return new BaseResponse<IEnumerable<Car>>()
+                return new BaseResponse<List<Car>>()
                 {
                     Description = $"[GetCars] : {ex.Message}",
                     StatusCode = StatusCode.InternalServerError

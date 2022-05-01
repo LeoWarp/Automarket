@@ -1,8 +1,25 @@
-﻿@model List<Automarket.Domain.Entity.Car>
+﻿@using Automarket.Domain.ViewModels.Car
+@model List<Automarket.Domain.Entity.Car>
 
 @{
-    ViewBag.Title = "title";
+    ViewBag.Title = "Список автомобилей";
     Layout = "_Layout";
+}
+
+@{
+    var cardStyle = "col-md-12";
+    if (Model != null)
+    {
+        switch (Model.Count)
+        {
+            case 2:
+                cardStyle = "col-md-6";
+                break;
+            default:
+                cardStyle = "col-md-4";
+                break;
+        }
+    }
 }
 
 <style>
@@ -15,10 +32,11 @@
 <div class="card-buttons-group">
     <button class="btn btn-danger" id='hideCardsId'>Скрыть</button>
     <button class='btn btn-success' id='showCardsId'>Показать</button>
+    <button class='btn btn-success' id='addCarId'>Добавить</button>
 </div>
 
 <div style="padding: 10px;"></div>
-@if (Model.Count == 0)
+@if (Model == null)
 {
     <div class="card col-md-12">
         <div class="row g-0">
@@ -63,7 +81,7 @@ else
     <div class="row">
         @foreach (var car in Model)
         {
-            <div class="row row-cols-1 col-md-4 text-center">
+            <div class="row row-cols-1 @cardStyle text-center">
                 <div class="col" style="padding: 10px;">
                     <div class="card">
                         <img src="data:image/jpeg;base64,@Convert.ToBase64String(car.Avatar ?? Array.Empty<byte>())" class="card-img-top" alt="@car.Name">
@@ -76,14 +94,12 @@ else
                             <li class="list-group-item">@car.TypeCar</li>
                         </ul>
                         <div class="card-body">
-                            <a asp-action="GetCar" asp-route-id="@car.Id" class="card-link">Перейти</a>
-                            @* <a asp-controller="Basket" asp-action="Add" asp-route-id="@id" class="card-link">Добавить</a> *@
-                            @if (User.IsInRole("Admin"))
-                            {
-                                <hr/>
-                                <a asp-controller="Car" asp-action="Delete" asp-route-id="@car.Id" class="btn btn-danger">Удалить</a>
-                                <a asp-controller="Car" asp-action="Save" asp-route-id="@car.Id" class="btn btn-primary">Изменить</a>
-                            }
+                            <button class="btn btn-primary" onclick="openModal(@car.Id)" asp-action="GetCar" value="@car.Id" asp-route-id="@car.Id" 
+                                    data-toggle="ajax-modal" data-target="Modal">Открыть</button>
+                             @if (User.IsInRole("Admin"))
+                             {
+                                 <button asp-controller="Car" asp-action="Delete" asp-route-id="@car.Id" class="btn btn-danger">Удалить</button>
+                             }
                         </div>
                     </div>
                 </div>
@@ -92,8 +108,73 @@ else
     </div>   
 }
 
+<div class="modal fade" id="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Информация об автомобиле</h5>
+      </div>
+        <div class="modal-body">
+
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-close btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+            @if (User.IsInRole("Admin"))
+            {
+                <button type="button" class="btn btn-primary" id="saveBtn">Сохранить</button>   
+            }
+        </div>
+    </div>
+  </div>
+</div>
+
+
 @section pageScripts {
+
     <script>
+    
+        function model() {
+            const model = {
+                name: $('input#Name').val(),
+                model: $('input#Model').val(),
+                price: $('input#Price').val(),
+                description: $('input#Description').val()
+            }            
+            return model;
+        };
+        
+        $('#saveBtn').on('click', function () {
+           $.ajax({
+               url: '@Url.Action("Save")',
+               type: 'POST',
+               data: model(),
+           }) 
+        });
+    
+       var modal = $('#modal');
+    
+       $(".btn-close").click(function(){
+            modal.modal('hide');
+       });
+       
+        function openModal(id){
+            $.ajax({
+                type: 'GET',
+                url : '/Car/GetCar',
+                data: { "id": id },
+                success: function (response) {
+                    modal.find(".modal-body").html(response);
+                    modal.modal('show')
+                },
+                failure: function () {
+                  modal.modal('hide')
+                },
+                error: function (response) {
+                    alert(response.responseText);
+                }
+            });
+        };
+    
         const hideCardElement = $('#hideCardsId');
         const showCardElement = $('#showCardsId');
         const cardElement = $('.card');

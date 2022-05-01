@@ -8,15 +8,15 @@ namespace Automarket.Service.Interfaces
 {
     public interface ICarService
     {
-        Task<IBaseResponse<IEnumerable<Car>>> GetCars();
+        BaseResponse<Dictionary<int, string>> GetTypes();
+        
+        IBaseResponse<List<Car>> GetCars();
         
         Task<IBaseResponse<CarViewModel>> GetCar(int id);
 
         Task<IBaseResponse<Car>> Create(CarViewModel car, byte[] imageData);
 
         Task<IBaseResponse<bool>> DeleteCar(int id);
-
-        Task<IBaseResponse<Car>> GetCarByName(string name);
 
         Task<IBaseResponse<Car>> Edit(int id, CarViewModel model);
     }   

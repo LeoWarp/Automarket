@@ -15,6 +15,6 @@ namespace Automarket.Domain.Enum
         [Display(Name = "Спортивная машина")]
         SportsCar = 4,
         [Display(Name = "Внедорожник")]
-        Suv = 5
+        Suv = 5,
     }
 }

@@ -3,7 +3,6 @@ C:\Users\leowa\Desktop\Automarket\Automarket.Service\bin\Debug\net6.0\Automarket
 C:\Users\leowa\Desktop\Automarket\Automarket.Service\bin\Debug\net6.0\Automarket.Service.pdb
 C:\Users\leowa\Desktop\Automarket\Automarket.Service\bin\Debug\net6.0\Automarket.DAL.dll
 C:\Users\leowa\Desktop\Automarket\Automarket.Service\bin\Debug\net6.0\Automarket.Domain.dll
-C:\Users\leowa\Desktop\Automarket\Automarket.Service\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\leowa\Desktop\Automarket\Automarket.Service\bin\Debug\net6.0\Automarket.DAL.pdb
 C:\Users\leowa\Desktop\Automarket\Automarket.Service\bin\Debug\net6.0\Automarket.Domain.pdb
 C:\Users\leowa\Desktop\Automarket\Automarket.Service\obj\Debug\net6.0\Automarket.Service.csproj.AssemblyReference.cache
@@ -16,3 +15,4 @@ C:\Users\leowa\Desktop\Automarket\Automarket.Service\obj\Debug\net6.0\Automarket
 C:\Users\leowa\Desktop\Automarket\Automarket.Service\obj\Debug\net6.0\ref\Automarket.Service.dll
 C:\Users\leowa\Desktop\Automarket\Automarket.Service\obj\Debug\net6.0\Automarket.Service.pdb
 C:\Users\leowa\Desktop\Automarket\Automarket.Service\obj\Debug\net6.0\refint\Automarket.Service.dll
+C:\Users\leowa\Desktop\Automarket\Automarket.Service\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll

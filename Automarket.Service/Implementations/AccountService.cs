@@ -17,7 +17,7 @@ namespace Automarket.Service.Implementations
     public class AccountService : IAccountService
     {
         private readonly IBaseRepository<User> _userRepository;
-        private ILogger<AccountService> _logger;
+        private readonly ILogger<AccountService> _logger;
         
         public AccountService(IBaseRepository<User> userRepository,
             ILogger<AccountService> logger)
@@ -35,7 +35,7 @@ namespace Automarket.Service.Implementations
                 {
                     return new BaseResponse<ClaimsIdentity>()
                     {
-                        Description = "Такой пользователь уже есть",
+                        Description = "Пользователь с таким логином уже есть",
                     };
                 }
 

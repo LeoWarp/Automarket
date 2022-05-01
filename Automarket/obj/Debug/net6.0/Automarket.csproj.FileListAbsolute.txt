@@ -383,3 +383,7 @@ C:\Users\leowa\Desktop\Automarket\Automarket\obj\Debug\net6.0\Automarket.pdb
 C:\Users\leowa\Desktop\Automarket\Automarket\obj\Debug\net6.0\Automarket.genruntimeconfig.cache
 C:\Users\leowa\Desktop\Automarket\Automarket\bin\Debug\net6.0\refs\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\leowa\Desktop\Automarket\Automarket\obj\Debug\net6.0\refint\Automarket.dll
+C:\Users\leowa\Desktop\Automarket\Automarket\bin\Debug\net6.0\nlog.config
+C:\Users\leowa\Desktop\Automarket\Automarket\bin\Debug\net6.0\NLog.dll
+C:\Users\leowa\Desktop\Automarket\Automarket\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+C:\Users\leowa\Desktop\Automarket\Automarket\bin\Debug\net6.0\NLog.Web.AspNetCore.dll

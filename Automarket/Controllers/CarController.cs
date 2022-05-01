@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Automarket.Domain.ViewModels.Car;
 using Automarket.Service.Interfaces;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Automarket.Controllers
@@ -18,27 +19,16 @@ namespace Automarket.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetCars()
+        public IActionResult GetCars()
         {
-            var response = await _carService.GetCars();
+            var response = _carService.GetCars();
             if (response.StatusCode == Domain.Enum.StatusCode.OK)
             {
-                return View(response.Data.ToList());   
+                return View(response.Data);   
             }
             return View("Error", $"{response.Description}");
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetCar(int id)
-        {
-            var response = await _carService.GetCar(id);
-            if (response.StatusCode == Domain.Enum.StatusCode.OK)
-            {
-                return View(response.Data);
-            }
-            return View("Error", $"{response.Description}");
-        }
-        
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int id)
         {
@@ -61,9 +51,11 @@ namespace Automarket.Controllers
             {
                 return View(response.Data);
             }
-            return View("Error", $"{response.Description}");
+            ModelState.AddModelError("", response.Description);
+            return View();
         }
 
+        // string Name, string Model, double Speed, string Description, decimal Price, string TypeCar, IFormFile Avatar
         [HttpPost]
         public async Task<IActionResult> Save(CarViewModel model)
         {
@@ -86,6 +78,19 @@ namespace Automarket.Controllers
                 return RedirectToAction("GetCars");   
             }
             return View();
+        }
+        
+        public async Task<ActionResult> GetCar(int id)
+        {
+            var response = await _carService.GetCar(id);
+            return PartialView("GetCar", response.Data);
+        }
+        
+        [HttpPost]
+        public JsonResult GetTypes()
+        {
+            var types = _carService.GetTypes();
+            return Json(types.Data);
         }
     }
 }
