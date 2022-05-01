@@ -1,0 +1,422 @@
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\bin\Debug\net6.0\NLog.config
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\bin\Debug\net6.0\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\bin\Debug\net6.0\NLog.config
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\bin\Debug\net6.0\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
+Info Message Template Auto Format enabled
+Info Loading assembly: NLog.Web.AspNetCore
+Info Adding target FileTarget(Name=allfile)
+Info Adding target FileTarget(Name=ownFile-web)
+Info Adding target ConsoleTarget(Name=lifetimeConsole)
+Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\leowa\Desktop\Automarket\Automarket\NLog.config
