@@ -40,19 +40,21 @@ namespace Automarket.Controllers
             return View("Error", $"{response.Description}");
         }
 
+        public IActionResult Compare() => PartialView();
+        
         [HttpGet]
         public async Task<IActionResult> Save(int id)
         {
             if (id == 0) 
-                return View();
+                return PartialView();
 
             var response = await _carService.GetCar(id);
             if (response.StatusCode == Domain.Enum.StatusCode.OK)
             {
-                return View(response.Data);
+                return PartialView(response.Data);
             }
             ModelState.AddModelError("", response.Description);
-            return View();
+            return PartialView();
         }
 
         // string Name, string Model, double Speed, string Description, decimal Price, string TypeCar, IFormFile Avatar
@@ -80,10 +82,23 @@ namespace Automarket.Controllers
             return View();
         }
         
-        public async Task<ActionResult> GetCar(int id)
+        
+        [HttpGet]
+        public async Task<ActionResult> GetCar(int id, bool isJson)
         {
             var response = await _carService.GetCar(id);
+            if (isJson)
+            {
+                return Json(response.Data);
+            }
             return PartialView("GetCar", response.Data);
+        }
+        
+        [HttpPost]
+        public async Task<IActionResult> GetCar(string term, int page = 1, int pageSize = 5)
+        {
+            var response = await _carService.GetCar(term);
+            return Json(response.Data);
         }
         
         [HttpPost]

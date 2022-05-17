@@ -1,0 +1,92 @@
+﻿@model Automarket.Domain.Entity.Profile
+
+<div class="card col-md-12" style="margin: 10px;">
+    <div class="card-buttons-group">
+        <button class='btn btn-primary' id='addProfileCardId'>Добавить</button>
+    </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Данные профиля</h5>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">@Model?.Age</li>
+            <li class="list-group-item">@Model?.Address</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Особое обращение с заголовком</h5>
+        <p class="card-text">С вспомогательным текстом ниже в качестве естественного перехода к дополнительному контенту.</p>
+        <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Информация об автомобиле</h5>
+      </div>
+      <div class="modal-body">
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-close btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+        @if (User.IsInRole("Admin"))
+        {
+          <button type="button" class="btn btn-primary" id="saveBtn">Сохранить</button>   
+        }
+      </div>
+    </div>
+  </div>
+</div>
+
+@section pageScripts
+{
+ <script>
+    let modal = $('#modal'); 
+    
+    function model() {
+        const model = {
+            age: $('input#Age').val(),
+            address: $('input#Address').val()
+        }            
+        return model;
+    };
+    
+    $('#saveBtn').on('click', function () {
+       $.ajax({
+           url: '@Url.Action("Save")',
+           type: 'POST',
+           data: model(),
+       }) 
+    });
+    
+    $('#addProfileCardId').on('click', function () {
+         $.ajax({
+            type: 'GET',
+            url : '/Profile/Save',
+            success: function (response) {
+                $('.modal-dialog').removeClass("modal-lg");
+                modal.find(".modal-body").html(response);
+                modal.modal('show')
+            },
+            failure: function () {
+              modal.modal('hide')
+            },
+            error: function (response) {
+                alert(response.responseText);
+            }
+        });
+    });
+ 
+ </script> 
+}

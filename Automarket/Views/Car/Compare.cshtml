@@ -1,0 +1,183 @@
+﻿<div class="row">
+    <div class="col">
+        <select class="form-control" id="firstCarId"></select>
+    </div>
+    <div class="col">
+        <select class="form-control" id="secondCarId"></select>
+    </div>
+</div>
+
+<div style="padding: 10px;"></div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card-body">
+            <h5 class="card-title" id="firstCardTitleId"></h5>
+            <p class="card-text" id="firstCardDescId"></p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item" id="firstCardSpeedId"></li>
+            <li class="list-group-item" id="firstCardPriceId"></li>
+            <li class="list-group-item" id="firstCardModelId"></li>
+            <li class="list-group-item" id="firstCardDateCreateId"></li>
+        </ul>
+    </div>
+    <div class="col-md-6">
+       <div class="card-body">
+           <h5 class="card-title" id="secondCardTitleId"></h5>
+           <p class="card-text" id="secondCardDescId"></p>
+       </div>
+       <ul class="list-group list-group-flush">
+           <li class="list-group-item" id="secondCardSpeedId"></li>
+           <li class="list-group-item" id="secondCardPriceId"></li>
+           <li class="list-group-item" id="secondCardModelId"></li>
+           <li class="list-group-item" id="secondCardDateCreateId"></li>
+       </ul> 
+    </div>
+</div>
+
+
+<div style="padding: 10px;"></div>
+
+<div class="text-white bg-secondary" id="warningCardId">
+    <div class="bg-secondary card-header text-white">
+        Предупреждение
+    </div>
+    <div class="card-body">
+        <blockquote class="blockquote mb-0">
+            <p id="warningId"></p>
+        </blockquote>
+    </div>
+</div>
+
+<div style="padding: 10px;"></div>
+
+<div id="resultCardId">
+  <div class="bg-secondary card-header text-white">
+    Результат
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item" id="resultSpeedId"></li>
+        <li class="list-group-item" id="resultPriceId"></li>
+    </ul>
+  </div>
+</div>
+
+<script src="~/lib/select2/js/select2.full.min.js"></script>
+<script> 
+$(document).ready(function () {
+    
+    $('#firstCardId').hide();
+    $('#secondCardId').hide();
+    $('#warningCardId').hide();
+    $('#resultCardId').hide();
+    
+    let firstCar = null; 
+    let secondCar = null;        
+    
+    $('#firstCarId, #secondCarId').select2({
+       placeholder: "Выберите машину",
+       minimumInputLength: 2,
+       allowClear: true,
+       ajax: {
+            type: "POST",
+            url: "@Url.Action("GetCar", "Car")",
+            dataType: "json",
+            data: function (params) { 
+                var query = {
+                    term: params.term,
+                    page: params.page || 1,
+                    pageSize: params.pageSize || 5
+                };
+                return query;
+            },
+            processResults: function (result) {
+                return {
+                    results: $.map(result, function (val, index) {
+                        return {
+                            id: index, 
+                            text: val
+                        };
+                    }),
+                };
+            }
+        }
+    });      
+
+    function fillData(val, cardId){
+        if (cardId === 'firstCardId'){
+            $('#firstCardId').show();
+            $('#firstCardTitleId')[0].innerText = 'Название: ' + val.name;
+            $('#firstCardDescId')[0].innerText = 'Описание: ' + val.description;
+            $('#firstCardSpeedId')[0].innerText = 'Скорость: ' + val.speed + ' км/ч';
+            $('#firstCardPriceId')[0].innerText = 'Стоимость: ' + val.price + ' ₽';
+            $('#firstCardModelId')[0].innerText = 'Модель: ' + val.model;
+            $('#firstCardDateCreateId')[0].innerText = 'Дата создания: ' + val.dateCreate;
+        } else {
+            $('#secondCarId').show();
+            $('#secondCardTitleId')[0].innerText = 'Название: ' + val.name;
+            $('#secondCardDescId')[0].innerText = 'Описание: ' + val.description;
+            $('#secondCardSpeedId')[0].innerText = 'Скорость: ' + val.speed + ' км/ч';
+            $('#secondCardPriceId')[0].innerText = 'Стоимость: ' + val.price + ' ₽';
+            $('#secondCardModelId')[0].innerText = 'Модель: ' + val.model;
+            $('#secondCardDateCreateId')[0].innerText = 'Дата создания: ' + val.dateCreate;
+        }
+        compareCars();
+    }
+   
+    
+    $("#secondCarId").on("change", function(){
+        const id = this.value;
+        if (id === "") return;
+        $.get("/Car/GetCar", { id : id, isJson : true }, function(data) {
+            secondCar = data;
+            fillData(secondCar, "secondCarId");
+        });
+    });
+    
+    $("#firstCarId").on("change", function(){
+        const id = this.value;
+        if (id === "") return;
+        $.get("/Car/GetCar", { id : id, isJson : true }, function(data) {
+            firstCar = data;
+            fillData(firstCar, "firstCardId");
+        });            
+    });
+    
+    function compareCars(){
+        if (firstCar === null) {
+            $('#warningId')[0].innerText = 'Вы не выбрали первый автомобиль';
+            $('#warningCardId').show();
+            return;
+        }
+        
+        if (secondCar === null) {
+            $('#warningId')[0].innerText = 'Вы не выбрали второй автомобиль';
+            $('#warningCardId').show();
+            return;
+        }    
+        
+        var speed = $('#resultSpeedId')[0];
+        if (firstCar.speed > secondCar.speed) {
+            speed.innerText = 'Скорость ' + firstCar.name + ' выше, чем у ' + secondCar.name;
+        } else if (firstCar.speed === secondCar.speed) {
+            speed.innerText = 'Скорость ' + secondCar.name + ' и ' + firstCar.name + ' равны';
+        } else {
+            speed.innerText = 'Скорость ' + secondCar.name + ' выше, чем у ' + firstCar.name;
+        }
+        
+        var price = $('#resultPriceId')[0];
+        if (firstCar.price > secondCar.price) {
+            price.innerText = 'Стоимость ' + firstCar.name + ' выше, чем у ' + secondCar.name;
+        } else if (firstCar.price === secondCar.price) {
+            price.innerText = 'Стоимость ' + firstCar.name + ' и ' + secondCar.name + ' равны';
+        } else {
+           price.innerText = 'Стоимость ' + firstCar.name + ' выше, чем у ' + secondCar.name;
+        }
+
+        $('#resultCardId').show();
+        $('#warningCardId').hide();
+    }
+  });
+</script>

@@ -1,0 +1,45 @@
+﻿@model Automarket.Domain.ViewModels.Profile.ProfileViewModel
+@{
+    var textTitle = Model?.Id == 0 ? "Изменение данных" : "Добавление данных";
+}
+
+<form asp-controller="Profile" asp-action="Save" enctype="multipart/form-data">
+    <input asp-for="Id" hidden />
+    <div asp-validation-summary="All" style="font-size:23px; font-family:Impact, serif" class="text-danger text-center"></div>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label asp-for="@Model.Age" class="col-form-label"></label>
+            <input type="text" class="form-control" asp-for="@Model.Age">
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="@Model.Address" class="col-form-label"></label>
+            <input class="form-control" asp-for="@Model.Address"/>
+        </div>
+        @*<div class="form-group col-md-4">
+            <label asp-for="@Model.Price" class="col-form-label"></label>
+            <input type="text" class="form-control" asp-for="@Model.Price" />
+        </div>*@
+    </div>
+    @*<div class="row">
+        <div class="form-group col-md-12">
+            <label asp-for="@Model.Description" class="col-form-label"></label>
+            <textarea type="text" class="form-control" asp-for="@Model.Description"></textarea>
+        </div>
+    </div>*@
+    @*<div class="row">
+        <div class="form-group col-md-6">
+            <label asp-for="@Model.TypeCar" class="col-form-label"></label>
+            <select asp-for="@Model.TypeCar" class="form-control" id="carTypeId"></select>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="col-form-label">Изображение</label>
+            <input asp-for="@Model.Avatar" class="form-control" type="file">
+        </div>
+    </div>*@
+</form>
+
+<style>
+    label {
+        color: black;
+    }
+</style>

@@ -56,29 +56,9 @@
                 @if (User.Identity.IsAuthenticated)
                 {
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle paragraphLayout active text-black" href="#" data-toggle="dropdown" style="font-family:'Comic Sans MS'; font-weight: bold;">
+                        <a class="nav-link paragraphLayout active text-black" asp-controller="Car" asp-action="GetCars" style="font-family:'Comic Sans MS'; font-weight: bold;">
                             Авто
                         </a>
-                        <div class="dropdown-menu">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <ul class="nav flex-column paragraphHome">
-                                            <li class="nav-item text-center">
-                                                <a class="nav-link active text-white" asp-controller="Car" asp-action="GetCars">
-                                                    Список
-                                                </a>
-                                            </li>
-                                            <li class="nav-item text-center">
-                                                <a class="nav-link active text-white" asp-controller="Car" asp-action="Save">
-                                                    Добавление
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </li>   
                 }
                 @if (User.IsInRole("Admin"))
@@ -113,6 +93,12 @@
 
             @if (User.Identity.IsAuthenticated)
             {
+                <a asp-controller="Profile" asp-action="ProfileInfo">
+                    <svg style="color: black;" xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg>
+                </a>
+                
                  <form method="post" asp-controller="Account" asp-action="Logout">
                     <input class="btn btn-danger rounded" style="font-family:'Comic Sans MS'; font-weight: bold; font-size:20px;" type="submit" value="Выход" />
                 </form>

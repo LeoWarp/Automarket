@@ -10,13 +10,17 @@
         </div>
     </div>
     <div class="row">
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label asp-for="@Model.Name" class="col-form-label"></label>
             <input type="text" class="form-control" asp-for="@Model.Name">
         </div>
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label asp-for="@Model.Model" class="col-form-label"></label>
             <input class="form-control" asp-for="@Model.Model"/>
+        </div>
+        <div class="form-group col-md-4">
+            <label asp-for="@Model.Price" class="col-form-label"></label>
+            <input type="text" class="form-control" asp-for="@Model.Price" />
         </div>
     </div>
     <div class="row">
@@ -26,15 +30,13 @@
         </div>
     </div>
     <div class="row">
-        <div class="form-group col-md-4">
-            <label asp-for="@Model.Price" class="col-form-label"></label>
-            <input type="text" class="form-control" asp-for="@Model.Price" />
-        </div>
-        <div class="form-group col-md-4">
+        <div class="form-group col-md-6">
             <label asp-for="@Model.TypeCar" class="col-form-label"></label>
-            <select class="form-control" id="carTypeId2"></select>
+            <select class="form-control" id="carTypeId2">
+                <option value="@Model.TypeCar">@Model.TypeCar</option>
+            </select>
         </div>
-        <div class="form-group col-md-4">
+        <div class="form-group col-md-6">
             <label asp-for="@Model.DateCreate" class="col-form-label"></label>
             <input class="form-control" asp-for="@Model.DateCreate"/>
         </div>
@@ -46,3 +48,27 @@
         color: black;
     }
 </style>
+
+<script src="~/lib/select2/js/select2.full.min.js"></script>
+<script>
+$('#carTypeId2').select2({
+   placeholder: "Выберите тип",
+   minimumInputLength: 0,
+   allowClear: true,
+   ajax: {
+        type: "POST",
+        url: "@Url.Action("GetTypes", "Car")",
+        dataType: "json",
+        processResults: function (result) {
+            return {
+                results: $.map(result, function (val, index) {
+                    return {
+                        id: index, 
+                        text: val
+                    };
+                }),
+            };
+        }
+    }
+});
+</script>

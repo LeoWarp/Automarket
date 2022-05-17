@@ -61,8 +61,10 @@ namespace Automarket.Service.Implementations
 
                 var data = new CarViewModel()
                 {
-                    DateCreate = car.DateCreate,
+                    DateCreate = car.DateCreate.ToLongDateString(),
                     Description = car.Description,
+                    Name = car.Name,
+                    Price = car.Price,
                     TypeCar = car.TypeCar.GetDisplayName(),
                     Speed = car.Speed,
                     Model = car.Model,
@@ -80,6 +82,39 @@ namespace Automarket.Service.Implementations
                 return new BaseResponse<CarViewModel>()
                 {
                     Description = $"[GetCar] : {ex.Message}",
+                    StatusCode = StatusCode.InternalServerError
+                };
+            }
+        }
+
+        public async Task<BaseResponse<Dictionary<int, string>>> GetCar(string term)
+        {
+            var baseResponse = new BaseResponse<Dictionary<int, string>>();
+            try
+            {
+                var cars = await _carRepository.GetAll()
+                    .Select(x => new CarViewModel()
+                    {
+                        Id = x.Id,
+                        Speed = x.Speed,
+                        Name = x.Name,
+                        Description = x.Description,
+                        Model = x.Model,
+                        DateCreate = x.DateCreate.ToLongDateString(),
+                        Price = x.Price,
+                        TypeCar = x.TypeCar.GetDisplayName()
+                    })
+                    .Where(x => EF.Functions.Like(x.Name, $"%{term}%"))
+                    .ToDictionaryAsync(x => x.Id, t => t.Name);
+
+                baseResponse.Data = cars;
+                return baseResponse;
+            }
+            catch (Exception ex)
+            {
+                return new BaseResponse<Dictionary<int, string>>()
+                {
+                    Description = ex.Message,
                     StatusCode = StatusCode.InternalServerError
                 };
             }
@@ -133,7 +168,7 @@ namespace Automarket.Service.Implementations
                     };
                 }
 
-                await _carRepository.Delete(car);
+                /*await _carRepository.Delete(car);*/
 
                 return new BaseResponse<bool>()
                 {
@@ -169,7 +204,7 @@ namespace Automarket.Service.Implementations
                 car.Model = model.Model;
                 car.Price = model.Price;
                 car.Speed = model.Speed;
-                car.DateCreate = model.DateCreate;
+                car.DateCreate = DateTime.ParseExact(model.DateCreate,"yyyyMMdd HH:mm",null);
                 car.Name = model.Name;
 
                 await _carRepository.Update(car);

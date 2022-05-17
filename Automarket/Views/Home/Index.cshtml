@@ -3,7 +3,9 @@
 }
 
 <div style="padding: 10px;"></div>
-<div class="card col-md-12">
+@if (User.Identity.IsAuthenticated)
+{
+  <div class="card col-md-12">
   <div class="card-body">
     <h5 class="card-title text-center">Добро пожаловать на сайт Automarket</h5>
     <p class="card-text">
@@ -20,20 +22,20 @@
   {
     <div class="col">
       <div class="card h-100">
-        <img src="https://images.wallpaperscraft.ru/image/single/mashina_noch_dozhd_143166_1280x720.jpg" class="card-img-top"/>
+        <img src="https://images.wallpaperscraft.ru/image/single/mashina_noch_dozhd_143166_1280x720.jpg" class="card-img-top card-image"/>
         <div class="card-body text-center">
           <h5 class="card-title">Mercedes</h5>
           <p class="card-text">Mercedes-Benz — торговая марка и одноимённая компания — производитель легковых автомобилей премиального класса, грузовых автомобилей, автобусов и других транспортных средств</p>
         </div>
         <div class="card-footer text-center">
-          <a asp-controller="Car" asp-action="Save" asp-route-id="0" class="card-link">Приобретение</a>
+          <a asp-controller="Car" asp-action="GetCars" class="card-link">Список машин</a>
         </div>
       </div>
     </div> 
   }
   <div class="col">
     <div class="card h-100">
-      <img src="https://images.wallpaperscraft.ru/image/single/bmw_fary_avtomobil_124112_1280x720.jpg" class="card-img-top"/>
+      <img src="https://images.wallpaperscraft.ru/image/single/bmw_fary_avtomobil_124112_1280x720.jpg" class="card-img-top card-image"/>
       <div class="card-body text-center">
         <h5 class="card-title">BMW</h5>
         <p class="card-text">
@@ -47,13 +49,13 @@
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="https://images.wallpaperscraft.ru/image/single/audi_avtomobil_vid_speredi_130942_1280x720.jpg" class="card-img-top"/>
+      <img src="https://images.wallpaperscraft.ru/image/single/audi_avtomobil_vid_speredi_130942_1280x720.jpg" class="card-img-top card-image"/>
       <div class="card-body text-center">
         <h5 class="card-title">Audi</h5>
         <p class="card-text">Audi AG — немецкая автомобилестроительная компания в составе концерна Volkswagen Group, специализирующаяся на выпуске автомобилей под маркой Audi</p>
       </div>
       <div class="card-footer text-center">
-        <a asp-controller="Car" asp-action="" class="card-link">Сравнение</a>
+        <a asp-controller="Car" asp-action="GetCars" class="card-link">Список машин</a>
       </div>
     </div>
   </div>
@@ -93,10 +95,63 @@
     <button class="btn btn-primary" id="btnShowId">Показать</button>
   </div>
 </div>
+}
+else
+{
+  <div class="card">
+    <div class="card-header">
+      Вы не авторизовались
+    </div>
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <p>Для просмотра контента вы должны авторизоваться</p>
+      </blockquote>
+    </div>
+  </div>
+  
+  <div style="padding: 10px;"></div>
+  
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="~/img/Bmw_I8.jpg" class="card-img-top" alt="BMW i8">
+        <div class="card-body">
+          <h5 class="card-title text-center">Недоступно</h5>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">BMW i8</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="~/img/Mustang.jpg" class="card-img-top" alt="Mustang">
+        <div class="card-body">
+          <h5 class="card-title text-center">Недоступно</h5>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Mustang</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="~/img/Bmw.jpg" class="card-img-top" alt="BMW">
+        <div class="card-body">
+          <h5 class="card-title text-center">Недоступно</h5>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">BMW</small>
+        </div>
+      </div>
+    </div>
+  </div>
+}
 
 @section pageScripts
 {
-  <script>
+    <script>
+    
     $('#btnHideId').click(function(){
       $('#ulListId').hide(2000);
     });

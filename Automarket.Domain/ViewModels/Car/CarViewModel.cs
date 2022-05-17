@@ -14,6 +14,7 @@ namespace Automarket.Domain.ViewModels.Car
         public string Name { get; set; }
         
         [Display(Name = "Описание")]
+        [MinLength(50, ErrorMessage = "Минимальная длина должна быть больше 50 символов")]
         public string Description { get; set; }
         
         [Display(Name = "Модель")]
@@ -30,7 +31,7 @@ namespace Automarket.Domain.ViewModels.Car
         [Required(ErrorMessage = "Укажите стоимость")]
         public decimal Price { get; set; }
         
-        public DateTime DateCreate { get; set; }
+        public string DateCreate { get; set; }
         
         [Display(Name = "Тип автомобиля")]
         [Required(ErrorMessage = "Выберите тип")]
