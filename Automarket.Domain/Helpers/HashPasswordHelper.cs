@@ -6,7 +6,6 @@ namespace Automarket.Domain.Helpers
 {
     public static class HashPasswordHelper
     {
-        
         public static string HashPassowrd(string password)
         {
             using(var sha256 = SHA256.Create())  

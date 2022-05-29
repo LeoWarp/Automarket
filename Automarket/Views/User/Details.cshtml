@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Automarket.Domain.ViewModels.User.UserViewModel>
+
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Пользователи";
+}
+
+<div style="padding: 10px;"></div>
+<div class="card col-md-12">
+    <table class="table table-striped">
+        <thead class="table-light">
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Логин</th>
+            <th scope="col">Роль</th>
+            <th scope="col">#</th>
+            <th scope="col">#</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var user in @Model)
+        {
+            <tr>
+                <td>@user.Id</td>
+                <td>@user.Name</td>
+                <td>@user.Role</td>
+                <td>
+                    <form asp-action="DeleteUser" asp-controller="User" asp-route-id="@user.Id" method="post">
+                        <button type="submit" class="btn btn-sm btn-danger">
+                            Удалить
+                        </button>
+                    </form>
+                </td>
+                <td>
+                    <button type="submit" class="btn btn-sm btn-primary" onclick="openModal({ url: '@Url.Action("GetUser", "User")', data: @user.Id })">
+                        Посмотреть
+                    </button>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+
+@section pageScripts
+{
+    <script>
+        function model() {
+            return {
+                name: $('input#Name').val(),
+                role: $('#selectRoleId').val(),
+                address: $('textarea#Address').val(),
+            }
+        };
+        
+       $('#saveBtn').on('click', function () {
+           $.ajax({
+               url: '@Url.Action("Save")',
+               type: 'POST',
+               data: model(),
+           }) 
+      });
+    </script>
+}

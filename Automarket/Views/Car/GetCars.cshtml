@@ -98,7 +98,7 @@ else
                             <li class="list-group-item">Модель: @car.Model</li>
                         </ul>
                         <div class="card-body">
-                            <button class="btn btn-primary" onclick="openModal(@car.Id)" asp-action="GetCar" value="@car.Id" asp-route-id="@car.Id" 
+                            <button class="btn btn-primary" onclick="openModal({ url: '/Car/GetCar', data: '@car.Id' })"
                                     data-toggle="ajax-modal" data-target="Modal">Открыть</button>
                              @if (User.IsInRole("Admin"))
                              {
@@ -112,43 +112,23 @@ else
     </div>   
 }
 
-<div class="modal fade" id="modal" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Информация об автомобиле</h5>
-      </div>
-        <div class="modal-body">
-
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-close btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-            @if (User.IsInRole("Admin"))
-            {
-                <button type="button" class="btn btn-primary" id="saveBtn">Сохранить</button>   
-            }
-        </div>
-    </div>
-  </div>
-</div>
-
 @section pageScripts {
-
-    <script>
-        let modal = $('#modal'); 
     
-        function model() {
-            const model = {
+    <script src="~/js/modal.js"></script>
+    <script>
+       let modal = $('#modal'); 
+    
+       function model() { 
+            return {
                 name: $('input#Name').val(),
                 model: $('input#Model').val(),
                 price: $('input#Price').val(),
                 description: $('input#Description').val(),
                 avatar: $('input#Avatar').val(),
-            }            
-            return model;
+            }
         };
         
-        $('#saveBtn').on('click', function () {
+       $('#saveBtn').on('click', function () {
            $.ajax({
                url: '@Url.Action("Save")',
                type: 'POST',
@@ -190,24 +170,5 @@ else
           });
        });
        
-        function openModal(id){
-            $.ajax({
-                type: 'GET',
-                url : '/Car/GetCar',
-                data: { "id": id },
-                success: function (response) {
-                    $('.modal-dialog').removeClass("modal-lg");
-                    modal.find(".modal-body").html(response);
-                    modal.modal('show')
-                },
-                failure: function () {
-                  modal.modal('hide')
-                },
-                error: function (response) {
-                    alert(response.responseText);
-                }
-            });
-        };
-                
     </script>
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6eQVQxDgCLoiQmUkFfSsGYYhWXfQWcAWmaEnDxdBDW0=",
+  "Hash": "7b1hxrc68FQ5Jh0gEULJz4vHldKgzXjYQz6Ref8W4T0=",
   "Source": "Automarket",
   "BasePath": "_content/Automarket",
   "Mode": "Default",
@@ -185,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Mustang.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\js\\modal.js",
+      "SourceId": "Automarket",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "BasePath": "_content/Automarket",
+      "RelativePath": "js/modal.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\modal.js"
     },
     {
       "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\js\\site.js",

@@ -18,9 +18,9 @@
 }
 
 .card-image {
-    filter: grayscale(1); /* Черно-белый фильтр для изображения */
-    transition: 1s; /* Время изменения цвета изображения */
+    filter: grayscale(1);
+    transition: 1s;
 }
 .card-image:hover {
-    filter: grayscale(0); /* Цветное изображение при наведении */
+    filter: grayscale(0);
 }
