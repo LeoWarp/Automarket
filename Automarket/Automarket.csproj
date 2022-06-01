@@ -17,4 +17,9 @@
       <PackageReference Include="NLog.Web.AspNetCore" Version="5.0.0-rc2" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\User\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\User\GetUser.cshtml" />
+    </ItemGroup>
+
 </Project>

@@ -9,8 +9,5 @@ namespace Automarket.Service.Interfaces
     public interface IUserService
     {
         Task<BaseResponse<IEnumerable<UserViewModel>>> GetUsers();
-
-        Task<BaseResponse<UserViewModel>> GetUser(long id);
-        Task<BaseResponse<User>> Delete(long id);
     }
 }

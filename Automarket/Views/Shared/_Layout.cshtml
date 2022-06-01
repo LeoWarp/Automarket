@@ -78,8 +78,8 @@
                                                     Добавление
                                                 </a>
                                             </li>
-                                            <li class="nav-item text-center">
-                                                <a class="nav-link active text-white" asp-controller="User" asp-action="Details">
+                                             <li class="nav-item text-center">
+                                                <a class="nav-link active text-white" asp-controller="User" asp-action="GetUsers">
                                                     Пользователи
                                                 </a>
                                             </li>
@@ -119,11 +119,7 @@
       <div class="modal-header">
         <h5 class="modal-title">Информация</h5>
       </div>
-        <div class="modal-body">
-            
-            
-            
-        </div>
+        <div class="modal-body"></div>
         <div class="modal-footer">
             <button type="button" class="btn btn-close btn-secondary" data-bs-dismiss="modal">Закрыть</button>
             @if (User.IsInRole("Admin"))
