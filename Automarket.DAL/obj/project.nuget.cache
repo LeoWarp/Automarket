@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+h8kAOJH2jkG2LmgRvpR5CjiXtFRD5YF4SgJPfEXxYBQ5cz3DLxN7lI0hZC9vc2JwuqprxctHlZv/6ZkN8Wkqg==",
+  "dgSpecHash": "0H4a57X7As7vCojwjzi+lXpzDlmiiKJntkxkxIH/qfE5UzGLFhaD9GX5ry7SEvEjR0qkckYHs1cDLvC3KP7nFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.DAL\\Automarket.DAL.csproj",
+  "projectFilePath": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.DAL\\Automarket.DAL.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\leowa\\.nuget\\packages\\microsoft.aspnetcore.http.features\\6.0.0-preview.4.21253.5\\microsoft.aspnetcore.http.features.6.0.0-preview.4.21253.5.nupkg.sha512",
     "C:\\Users\\leowa\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.4\\microsoft.entityframeworkcore.6.0.4.nupkg.sha512",
     "C:\\Users\\leowa\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.4\\microsoft.entityframeworkcore.abstractions.6.0.4.nupkg.sha512",
     "C:\\Users\\leowa\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.4\\microsoft.entityframeworkcore.analyzers.6.0.4.nupkg.sha512",
@@ -19,6 +20,7 @@
     "C:\\Users\\leowa\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\leowa\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\leowa\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\leowa\\.nuget\\packages\\system.io.pipelines\\6.0.0-preview.4.21253.7\\system.io.pipelines.6.0.0-preview.4.21253.7.nupkg.sha512",
     "C:\\Users\\leowa\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

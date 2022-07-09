@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\Automarket.csproj": {}
+    "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\Automarket.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.DAL\\Automarket.DAL.csproj": {
+    "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.DAL\\Automarket.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.DAL\\Automarket.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.DAL\\Automarket.DAL.csproj",
         "projectName": "Automarket.DAL",
-        "projectPath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.DAL\\Automarket.DAL.csproj",
+        "projectPath": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.DAL\\Automarket.DAL.csproj",
         "packagesPath": "C:\\Users\\leowa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.DAL\\obj\\",
+        "outputPath": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leowa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj": {
-                "projectPath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj"
+              "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj": {
+                "projectPath": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj": {
+    "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj",
         "projectName": "Automarket.Domain",
-        "projectPath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj",
+        "projectPath": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj",
         "packagesPath": "C:\\Users\\leowa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Domain\\obj\\",
+        "outputPath": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leowa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -107,6 +107,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[6.0.0-preview.4.21253.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -126,14 +132,14 @@
         }
       }
     },
-    "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Service\\Automarket.Service.csproj": {
+    "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Service\\Automarket.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Service\\Automarket.Service.csproj",
+        "projectUniqueName": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Service\\Automarket.Service.csproj",
         "projectName": "Automarket.Service",
-        "projectPath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Service\\Automarket.Service.csproj",
+        "projectPath": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Service\\Automarket.Service.csproj",
         "packagesPath": "C:\\Users\\leowa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Service\\obj\\",
+        "outputPath": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leowa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -150,11 +156,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.DAL\\Automarket.DAL.csproj": {
-                "projectPath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.DAL\\Automarket.DAL.csproj"
+              "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.DAL\\Automarket.DAL.csproj": {
+                "projectPath": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.DAL\\Automarket.DAL.csproj"
               },
-              "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj": {
-                "projectPath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj"
+              "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj": {
+                "projectPath": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj"
               }
             }
           }
@@ -187,14 +193,14 @@
         }
       }
     },
-    "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\Automarket.csproj": {
+    "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\Automarket.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\Automarket.csproj",
+        "projectUniqueName": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\Automarket.csproj",
         "projectName": "Automarket",
-        "projectPath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\Automarket.csproj",
+        "projectPath": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\Automarket.csproj",
         "packagesPath": "C:\\Users\\leowa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\obj\\",
+        "outputPath": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leowa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -211,14 +217,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.DAL\\Automarket.DAL.csproj": {
-                "projectPath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.DAL\\Automarket.DAL.csproj"
+              "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.DAL\\Automarket.DAL.csproj": {
+                "projectPath": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.DAL\\Automarket.DAL.csproj"
               },
-              "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj": {
-                "projectPath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj"
+              "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj": {
+                "projectPath": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj"
               },
-              "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Service\\Automarket.Service.csproj": {
-                "projectPath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Service\\Automarket.Service.csproj"
+              "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Service\\Automarket.Service.csproj": {
+                "projectPath": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Service\\Automarket.Service.csproj"
               }
             }
           }

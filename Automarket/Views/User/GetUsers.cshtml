@@ -25,7 +25,7 @@
                 <td>@user.Name</td>
                 <td>@user.Role</td>
                 <td>
-                    <form asp-action="DeleteUser" asp-controller="User" asp-route-id="@user.Id" method="post">
+                    <form asp-controller="User" asp-action="DeleteUser" asp-route-id="@user.Id" method="post">
                         <button type="submit" class="btn btn-sm btn-danger">
                             Удалить
                         </button>

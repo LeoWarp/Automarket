@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/u+7Ypo1cSyLXt97ytaHSv+MBs/eXjqpaALyy3hGABci0xrvAYaAvieW/i7A2802HW6JFsgZ3ONP8Cs2EYyipg==",
+  "dgSpecHash": "tnPRysujnoVFOVYyhTTAHE8cdXsiUFY66nT9jqEcBThNwmUp83Cse0xmCTYSQ7A1HfX77b/he1g0++FUcy1N3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\Automarket.csproj",
+  "projectFilePath": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\Automarket.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\leowa\\.nuget\\packages\\microsoft.aspnetcore.http.features\\6.0.0-preview.4.21253.5\\microsoft.aspnetcore.http.features.6.0.0-preview.4.21253.5.nupkg.sha512",
     "C:\\Users\\leowa\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.4\\microsoft.aspnetcore.mvc.razor.extensions.6.0.4.nupkg.sha512",
     "C:\\Users\\leowa\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\6.0.4\\microsoft.aspnetcore.mvc.razor.runtimecompilation.6.0.4.nupkg.sha512",
     "C:\\Users\\leowa\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.4\\microsoft.aspnetcore.razor.language.6.0.4.nupkg.sha512",
@@ -47,6 +48,7 @@
     "C:\\Users\\leowa\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\leowa\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
     "C:\\Users\\leowa\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.8.0\\system.identitymodel.tokens.jwt.6.8.0.nupkg.sha512",
+    "C:\\Users\\leowa\\.nuget\\packages\\system.io.pipelines\\6.0.0-preview.4.21253.7\\system.io.pipelines.6.0.0-preview.4.21253.7.nupkg.sha512",
     "C:\\Users\\leowa\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\leowa\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\system.reflection.metadata.5.0.0.nupkg.sha512",
     "C:\\Users\\leowa\\.nuget\\packages\\system.runtime.caching\\4.7.0\\system.runtime.caching.4.7.0.nupkg.sha512",

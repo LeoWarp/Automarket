@@ -22,5 +22,15 @@ namespace Automarket.Controllers
             }
             return RedirectToAction("Index", "Home");
         }
+
+        public async Task<IActionResult> DeleteUser(long id)
+        {
+            var response = await _userService.DeleteUser(id);
+            if (response.StatusCode == Domain.Enum.StatusCode.OK)
+            {
+                return RedirectToAction("GetUsers");
+            }
+            return RedirectToAction("Index", "Home");
+        }
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7b1hxrc68FQ5Jh0gEULJz4vHldKgzXjYQz6Ref8W4T0=",
+  "Hash": "ow8taKiZHg3vIM7JOWJbtnnhggs+GgWISVPnfbo8A0Y=",
   "Source": "Automarket",
   "BasePath": "_content/Automarket",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Automarket\\wwwroot",
       "Source": "Automarket",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\css\\backImage.css",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\css\\backImage.css",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "css/backImage.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\backImage.css"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\css\\card.css",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\css\\card.css",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "css/card.css",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\css\\card.css"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\css\\label.css",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\css\\label.css",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "css/label.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\label.css"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\css\\menu.css",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\css\\menu.css",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "css/menu.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\menu.css"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\css\\paragraph.css",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\css\\paragraph.css",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "css/paragraph.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\paragraph.css"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\css\\site.css",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\favicon.ico",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\img\\Bmw_I8.jpg",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\img\\Bmw_I8.jpg",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "img/Bmw_I8.jpg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Bmw_I8.jpg"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\img\\Bmw.jpg",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\img\\Bmw.jpg",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "img/Bmw.jpg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Bmw.jpg"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\img\\Mustang.jpg",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\img\\Mustang.jpg",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "img/Mustang.jpg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Mustang.jpg"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\js\\modal.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\js\\modal.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "js/modal.js",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\js\\modal.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\js\\site.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\css\\select2.css",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\css\\select2.css",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/css/select2.css",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\css\\select2.css"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\css\\select2.min.css",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\css\\select2.min.css",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/css/select2.min.css",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\css\\select2.min.css"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\af.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\af.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/af.js",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\af.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\af.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\af.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/af.min.js",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\af.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ar.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ar.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/ar.js",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\ar.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ar.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ar.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/ar.min.js",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\ar.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\az.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\az.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/az.js",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\az.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\az.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\az.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/az.min.js",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\az.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\bg.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\bg.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/bg.js",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\bg.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\bg.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\bg.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/bg.min.js",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\bg.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\bn.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\bn.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/bn.js",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\bn.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\bn.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\bn.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/bn.min.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\bn.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\bs.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\bs.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/bs.js",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\bs.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\bs.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\bs.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/bs.min.js",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\bs.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ca.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ca.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/ca.js",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\ca.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ca.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ca.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/ca.min.js",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\ca.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\cs.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\cs.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/cs.js",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\cs.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\cs.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\cs.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/cs.min.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\cs.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\da.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\da.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/da.js",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\da.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\da.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\da.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/da.min.js",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\da.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\de.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\de.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/de.js",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\de.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\de.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\de.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/de.min.js",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\de.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\dsb.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\dsb.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/dsb.js",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\dsb.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\dsb.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\dsb.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/dsb.min.js",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\dsb.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\el.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\el.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/el.js",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\el.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\el.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\el.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/el.min.js",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\el.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\en.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\en.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/en.js",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\en.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\en.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\en.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/en.min.js",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\en.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\es.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\es.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/es.js",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\es.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\es.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\es.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/es.min.js",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\es.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\et.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\et.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/et.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\et.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\et.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\et.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/et.min.js",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\et.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\eu.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\eu.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/eu.js",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\eu.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\eu.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\eu.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/eu.min.js",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\eu.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\fa.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\fa.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/fa.js",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\fa.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\fa.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\fa.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/fa.min.js",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\fa.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\fi.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\fi.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/fi.js",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\fi.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\fi.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\fi.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/fi.min.js",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\fi.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\fr.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\fr.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/fr.js",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\fr.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\fr.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\fr.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/fr.min.js",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\fr.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\gl.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\gl.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/gl.js",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\gl.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\gl.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\gl.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/gl.min.js",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\gl.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\he.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\he.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/he.js",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\he.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\he.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\he.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/he.min.js",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\he.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\hi.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\hi.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/hi.js",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\hi.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\hi.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\hi.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/hi.min.js",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\hi.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\hr.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\hr.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/hr.js",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\hr.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\hr.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\hr.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/hr.min.js",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\hr.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\hsb.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\hsb.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/hsb.js",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\hsb.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\hsb.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\hsb.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/hsb.min.js",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\hsb.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\hu.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\hu.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/hu.js",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\hu.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\hu.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\hu.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/hu.min.js",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\hu.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\hy.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\hy.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/hy.js",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\hy.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\hy.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\hy.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/hy.min.js",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\hy.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\id.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\id.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/id.js",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\id.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\id.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\id.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/id.min.js",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\id.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\is.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\is.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/is.js",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\is.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\is.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\is.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/is.min.js",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\is.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\it.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\it.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/it.js",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\it.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\it.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\it.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/it.min.js",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\it.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ja.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ja.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/ja.js",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\ja.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ja.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ja.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/ja.min.js",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\ja.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ka.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ka.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/ka.js",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\ka.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ka.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ka.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/ka.min.js",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\ka.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\km.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\km.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/km.js",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\km.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\km.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\km.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/km.min.js",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\km.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ko.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ko.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/ko.js",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\ko.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ko.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ko.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/ko.min.js",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\ko.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\lt.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\lt.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/lt.js",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\lt.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\lt.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\lt.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/lt.min.js",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\lt.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\lv.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\lv.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/lv.js",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\lv.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\lv.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\lv.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/lv.min.js",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\lv.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\mk.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\mk.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/mk.js",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\mk.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\mk.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\mk.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/mk.min.js",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\mk.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ms.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ms.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/ms.js",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\ms.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ms.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ms.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/ms.min.js",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\ms.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\nb.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\nb.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/nb.js",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\nb.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\nb.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\nb.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/nb.min.js",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\nb.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ne.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ne.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/ne.js",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\ne.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ne.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ne.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/ne.min.js",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\ne.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\nl.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\nl.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/nl.js",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\nl.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\nl.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\nl.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/nl.min.js",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\nl.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\pl.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\pl.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/pl.js",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\pl.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\pl.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\pl.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/pl.min.js",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\pl.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ps.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ps.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/ps.js",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\ps.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ps.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ps.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/ps.min.js",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\ps.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\pt-BR.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\pt-BR.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/pt-BR.js",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\pt-BR.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\pt-BR.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\pt-BR.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/pt-BR.min.js",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\pt-BR.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\pt.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\pt.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/pt.js",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\pt.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\pt.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\pt.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/pt.min.js",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\pt.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ro.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ro.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/ro.js",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\ro.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ro.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ro.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/ro.min.js",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\ro.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ru.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ru.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/ru.js",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\ru.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ru.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\ru.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/ru.min.js",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\ru.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sk.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sk.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/sk.js",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\sk.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sk.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sk.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/sk.min.js",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\sk.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sl.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sl.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/sl.js",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\sl.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sl.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sl.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/sl.min.js",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\sl.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sq.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sq.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/sq.js",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\sq.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sq.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sq.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/sq.min.js",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\sq.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sr-Cyrl.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sr-Cyrl.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/sr-Cyrl.js",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\sr-Cyrl.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sr-Cyrl.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sr-Cyrl.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/sr-Cyrl.min.js",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\sr-Cyrl.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sr.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sr.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/sr.js",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\sr.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sr.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sr.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/sr.min.js",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\sr.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sv.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sv.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/sv.js",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\sv.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sv.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\sv.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/sv.min.js",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\sv.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\th.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\th.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/th.js",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\th.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\th.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\th.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/th.min.js",
       "AssetKind": "All",
@@ -2618,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\th.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\tk.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\tk.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/tk.js",
       "AssetKind": "All",
@@ -2635,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\tk.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\tk.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\tk.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/tk.min.js",
       "AssetKind": "All",
@@ -2652,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\tk.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\tr.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\tr.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/tr.js",
       "AssetKind": "All",
@@ -2669,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\tr.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\tr.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\tr.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/tr.min.js",
       "AssetKind": "All",
@@ -2686,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\tr.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\uk.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\uk.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/uk.js",
       "AssetKind": "All",
@@ -2703,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\uk.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\uk.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\uk.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/uk.min.js",
       "AssetKind": "All",
@@ -2720,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\uk.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\vi.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\vi.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/vi.js",
       "AssetKind": "All",
@@ -2737,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\vi.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\vi.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\vi.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/vi.min.js",
       "AssetKind": "All",
@@ -2754,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\vi.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\zh-CN.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\zh-CN.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/zh-CN.js",
       "AssetKind": "All",
@@ -2771,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\zh-CN.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\zh-CN.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\zh-CN.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/zh-CN.min.js",
       "AssetKind": "All",
@@ -2788,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\zh-CN.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\zh-TW.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\zh-TW.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/zh-TW.js",
       "AssetKind": "All",
@@ -2805,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\zh-TW.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\zh-TW.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\i18n\\zh-TW.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/i18n/zh-TW.min.js",
       "AssetKind": "All",
@@ -2822,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\i18n\\zh-TW.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\select2.full.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\select2.full.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/select2.full.js",
       "AssetKind": "All",
@@ -2839,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\select2.full.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\select2.full.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\select2.full.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/select2.full.min.js",
       "AssetKind": "All",
@@ -2856,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\select2.full.min.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\select2.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\select2.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/select2.js",
       "AssetKind": "All",
@@ -2873,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\select2.js"
     },
     {
-      "Identity": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\select2.min.js",
+      "Identity": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\lib\\select2\\js\\select2.min.js",
       "SourceId": "Automarket",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\wwwroot\\",
       "BasePath": "_content/Automarket",
       "RelativePath": "lib/select2/js/select2.min.js",
       "AssetKind": "All",

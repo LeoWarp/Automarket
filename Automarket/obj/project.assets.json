@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Microsoft.AspNetCore.Http.Features/6.0.0-preview.4.21253.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0-preview.4.21253.7",
+          "System.IO.Pipelines": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.4": {
         "type": "package",
         "dependencies": {
@@ -685,6 +698,15 @@
           "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {}
         }
       },
+      "System.IO.Pipelines/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/System.IO.Pipelines.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.IO.Pipelines.dll": {}
+        }
+      },
       "System.Memory/4.5.4": {
         "type": "package",
         "compile": {
@@ -914,6 +936,9 @@
       "Automarket.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "6.0.0-preview.4.21253.5"
+        },
         "compile": {
           "bin/placeholder/Automarket.Domain.dll": {}
         },
@@ -938,6 +963,25 @@
     }
   },
   "libraries": {
+    "Microsoft.AspNetCore.Http.Features/6.0.0-preview.4.21253.5": {
+      "sha512": "R3MUGcafdytxU9Bv5PWy46MPlHtPLgjCX9ay+Y7VPyvaxtpCijz6tMBUPletOUeAcmyYpwBgWU1FwdyuZn0n8w==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/6.0.0-preview.4.21253.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/net461/Microsoft.AspNetCore.Http.Features.xml",
+        "lib/net6.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Http.Features.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
+        "microsoft.aspnetcore.http.features.6.0.0-preview.4.21253.5.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.4": {
       "sha512": "LNHMPXJkxoqAJrDTHHNekUstkJVxBqu3eJcu3lSjH3iPQw38hBzWPFUieP4MgC31C3ssabULaD2PB1WeOl058Q==",
       "type": "package",
@@ -2120,6 +2164,30 @@
         "system.identitymodel.tokens.jwt.nuspec"
       ]
     },
+    "System.IO.Pipelines/6.0.0-preview.4.21253.7": {
+      "sha512": "vFgm2rr53rp46mFmO+ihwVf9zOZu4sA11ULmCbmvrYEG3XR45ql1CYBSEEsntMQeZG0B/qiOOifnLTxB5G1C0A==",
+      "type": "package",
+      "path": "system.io.pipelines/6.0.0-preview.4.21253.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.IO.Pipelines.dll",
+        "lib/net461/System.IO.Pipelines.xml",
+        "lib/netcoreapp3.0/System.IO.Pipelines.dll",
+        "lib/netcoreapp3.0/System.IO.Pipelines.xml",
+        "lib/netstandard1.3/System.IO.Pipelines.dll",
+        "lib/netstandard1.3/System.IO.Pipelines.xml",
+        "lib/netstandard2.0/System.IO.Pipelines.dll",
+        "lib/netstandard2.0/System.IO.Pipelines.xml",
+        "ref/netcoreapp2.0/System.IO.Pipelines.dll",
+        "ref/netcoreapp2.0/System.IO.Pipelines.xml",
+        "system.io.pipelines.6.0.0-preview.4.21253.7.nupkg.sha512",
+        "system.io.pipelines.nuspec"
+      ]
+    },
     "System.Memory/4.5.4": {
       "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
       "type": "package",
@@ -2674,11 +2742,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\Automarket.csproj",
+      "projectUniqueName": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\Automarket.csproj",
       "projectName": "Automarket",
-      "projectPath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\Automarket.csproj",
+      "projectPath": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\Automarket.csproj",
       "packagesPath": "C:\\Users\\leowa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket\\obj\\",
+      "outputPath": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\leowa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2695,14 +2763,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.DAL\\Automarket.DAL.csproj": {
-              "projectPath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.DAL\\Automarket.DAL.csproj"
+            "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.DAL\\Automarket.DAL.csproj": {
+              "projectPath": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.DAL\\Automarket.DAL.csproj"
             },
-            "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj": {
-              "projectPath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj"
+            "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj": {
+              "projectPath": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj"
             },
-            "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Service\\Automarket.Service.csproj": {
-              "projectPath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Service\\Automarket.Service.csproj"
+            "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Service\\Automarket.Service.csproj": {
+              "projectPath": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Service\\Automarket.Service.csproj"
             }
           }
         }

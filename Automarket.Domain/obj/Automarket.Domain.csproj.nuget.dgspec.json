@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj": {}
+    "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj": {
+    "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj",
         "projectName": "Automarket.Domain",
-        "projectPath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj",
+        "projectPath": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Domain\\Automarket.Domain.csproj",
         "packagesPath": "C:\\Users\\leowa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leowa\\Desktop\\Automarket\\Automarket.Domain\\obj\\",
+        "outputPath": "C:\\Users\\leowa\\Desktop\\Кликай\\Automarket\\Automarket.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leowa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[6.0.0-preview.4.21253.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
