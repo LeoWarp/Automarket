@@ -1,17 +1,13 @@
-﻿using System.Threading.Tasks;
-using Automarket.Domain.Entity;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using Automarket.Domain.Response;
-using Automarket.Domain.ViewModels.Car;
 using Automarket.Domain.ViewModels.Profile;
+using Automarket.Domain.ViewModels.User;
 
 namespace Automarket.Service.Interfaces
 {
     public interface IProfileService
     {
-        Task<IBaseResponse<Profile>> Get(string userName);
-
-        Task<IBaseResponse<Profile>> Create(ProfileViewModel model);
-        
-        Task<IBaseResponse<Car>> Edit(long id, ProfileViewModel model);
+        Task<BaseResponse<ProfileViewModel>> GetProfile(string userName);
     }
 }

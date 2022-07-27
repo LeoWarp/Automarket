@@ -20,6 +20,8 @@
     <ItemGroup>
       <_ContentIncludedByDefault Remove="Views\User\Details.cshtml" />
       <_ContentIncludedByDefault Remove="Views\User\GetUser.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Profile\ProfileInfo.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Profile\Save.cshtml" />
     </ItemGroup>
 
 </Project>

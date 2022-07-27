@@ -32,7 +32,7 @@
                     </form>
                 </td>
                 <td>
-                    <button type="submit" class="btn btn-sm btn-primary" onclick="openModal({ url: '@Url.Action("GetUser", "User")', data: @user.Id })">
+                    <button type="submit" class="btn btn-sm btn-primary" onclick="openModal({ url: '@Url.Action("", "User")', data: @user.Id })">
                         Посмотреть
                     </button>
                 </td>
@@ -55,7 +55,6 @@
         
        $('#saveBtn').on('click', function () {
            $.ajax({
-               url: '@Url.Action("Save")',
                type: 'POST',
                data: model(),
            }) 

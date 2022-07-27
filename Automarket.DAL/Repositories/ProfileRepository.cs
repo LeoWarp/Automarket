@@ -7,32 +7,36 @@ namespace Automarket.DAL.Repositories
 {
     public class ProfileRepository : IBaseRepository<Profile>
     {
-        private readonly ApplicationDbContext _db;
+        private readonly ApplicationDbContext _dbContext;
 
-        public ProfileRepository(ApplicationDbContext db)
+        public ProfileRepository(ApplicationDbContext dbContext)
         {
-            _db = db;
+            _dbContext = dbContext;
         }
 
         public async Task Create(Profile entity)
         {
-            await _db.Profiles.AddAsync(entity);
-            await _db.SaveChangesAsync();
+            await _dbContext.Profiles.AddAsync(entity);
+            await _dbContext.SaveChangesAsync();
         }
 
         public IQueryable<Profile> GetAll()
         {
-            return _db.Profiles;
+            return _dbContext.Profiles;
         }
 
-        public Task Delete(Profile entity)
+        public async Task Delete(Profile entity)
         {
-            throw new System.NotImplementedException();
+            _dbContext.Profiles.Remove(entity);
+            await _dbContext.SaveChangesAsync();
         }
 
-        public Task<Profile> Update(Profile entity)
+        public async Task<Profile> Update(Profile entity)
         {
-            throw new System.NotImplementedException();
+            _dbContext.Profiles.Update(entity);
+            await _dbContext.SaveChangesAsync();
+
+            return entity;
         }
     }
 }

@@ -1,65 +1,59 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Automarket.DAL.Interfaces;
 using Automarket.Domain.Entity;
 using Automarket.Domain.Enum;
 using Automarket.Domain.Response;
-using Automarket.Domain.ViewModels.Car;
 using Automarket.Domain.ViewModels.Profile;
+using Automarket.Domain.ViewModels.User;
 using Automarket.Service.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace Automarket.Service.Implementations
 {
     public class ProfileService : IProfileService
     {
+        private readonly ILogger<ProfileService> _logger;
         private readonly IBaseRepository<Profile> _profileRepository;
 
-        public ProfileService(IBaseRepository<Profile> profileRepository)
+        public ProfileService(IBaseRepository<Profile> profileRepository,
+            ILogger<ProfileService> logger)
         {
             _profileRepository = profileRepository;
+            _logger = logger;
         }
 
-        public async Task<IBaseResponse<Profile>> Get(string userName)
+        public async Task<BaseResponse<ProfileViewModel>> GetProfile(string userName)
         {
             try
             {
-                var car = await _profileRepository.GetAll()
-                    .Include(x => x.User)
-                    .FirstOrDefaultAsync(x => x.User.Name == userName);
-                if (car == null)
-                {
-                    return new BaseResponse<Profile>()
+                var profile = await _profileRepository.GetAll()
+                    .Select(x => new ProfileViewModel()
                     {
-                        Description = "Пользователь не найден",
-                        StatusCode = StatusCode.UserNotFound
-                    };
-                }
+                        Address = x.Address,
+                        Age = x.Age,
+                        UserName = x.User.Name
+                    })
+                    .FirstOrDefaultAsync(x => x.UserName == userName);
 
-                return new BaseResponse<Profile>()
+                return new BaseResponse<ProfileViewModel>()
                 {
-                    StatusCode = StatusCode.OK,
-                    Data = car
+                    Data = profile,
+                    StatusCode = StatusCode.OK
                 };
             }
             catch (Exception ex)
             {
-                return new BaseResponse<Profile>()
+                _logger.LogError(ex, $"[ProfileService.GetProfile] error: {ex.Message}");
+                return new BaseResponse<ProfileViewModel>()
                 {
-                    Description = $"[Get] : {ex.Message}",
-                    StatusCode = StatusCode.InternalServerError
+                    StatusCode = StatusCode.InternalServerError,
+                    Description = $"Внутренняя ошибка: {ex.Message}"
                 };
             }
-        }
-
-        public Task<IBaseResponse<Profile>> Create(ProfileViewModel model)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<IBaseResponse<Car>> Edit(long id, ProfileViewModel model)
-        {
-            throw new NotImplementedException();
         }
     }
 }

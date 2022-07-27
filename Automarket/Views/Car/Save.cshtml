@@ -3,7 +3,7 @@
     var textTitle = Model?.Id == 0 ? "Изменение данных" : "Добавление данных";
 }
 
-<form asp-controller="Car" asp-action="Save" enctype="multipart/form-data">
+<form asp-controller="Car" asp-action="Save" enctype="multipart/form-data" id="formSaveCar">
     <input asp-for="Id" hidden />
     <div asp-validation-summary="All" style="font-size:23px; font-family:Impact, serif" class="text-danger text-center"></div>
     <div class="row">

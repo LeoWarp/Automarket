@@ -14,10 +14,10 @@ namespace Automarket.DAL
         
         public DbSet<Car> Cars { get; set; }
         
-        public DbSet<User> Users { get; set; }
-        
         public DbSet<Profile> Profiles { get; set; }
-        
+
+        public DbSet<User> Users { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>(builder =>
@@ -36,22 +36,21 @@ namespace Automarket.DAL
 
                 builder.Property(x => x.Password).IsRequired();
                 builder.Property(x => x.Name).HasMaxLength(100).IsRequired();
-                
+
                 builder.HasOne(x => x.Profile)
                     .WithOne(x => x.User)
                     .HasPrincipalKey<User>(x => x.Id)
-                    .OnDelete(DeleteBehavior.ClientCascade);
+                    .OnDelete(DeleteBehavior.Cascade);
             });
 
             modelBuilder.Entity<Profile>(builder =>
             {
                 builder.ToTable("Profiles").HasKey(x => x.Id);
-
-                builder.Property(x => x.Id).ValueGeneratedOnAdd();
                 
-                builder.Property(x => x.Age);
-                builder.Property(x => x.Address).HasMaxLength(250);
-                builder.Property(x => x.UserId);
+                builder.Property(x => x.Id).ValueGeneratedOnAdd();
+
+                builder.Property(x => x.Age).IsRequired();
+                builder.Property(x => x.Address).HasMaxLength(200).IsRequired();
             });
         }
     }

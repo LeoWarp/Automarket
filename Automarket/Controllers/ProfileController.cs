@@ -1,6 +1,4 @@
-﻿using System.Threading.Tasks;
-using Automarket.Domain.ViewModels.Profile;
-using Automarket.Service.Interfaces;
+﻿using Automarket.Service.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Automarket.Controllers
@@ -14,36 +12,9 @@ namespace Automarket.Controllers
             _profileService = profileService;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> ProfileInfo()
+        public IActionResult Detail()
         {
-            var userName = User.Identity?.Name;
-            var response = await _profileService.Get(userName);
-            if (response.StatusCode == Domain.Enum.StatusCode.OK)
-            {
-                return View(response.Data);
-            }
-            return View();
-        }
-
-        [HttpGet]
-        public IActionResult Save() => PartialView();
-
-        [HttpPost]
-        public async Task<IActionResult> Save(ProfileViewModel model)
-        {
-            if (ModelState.IsValid)
-            {
-                if (model.Id == 0)
-                {
-                    await _profileService.Create(model);
-                }
-                else
-                {
-                    await _profileService.Edit(model.Id, model);
-                }
-                return RedirectToAction("ProfileInfo");   
-            }
+            _profileService.GetProfile("ITHomester");
             return View();
         }
     }

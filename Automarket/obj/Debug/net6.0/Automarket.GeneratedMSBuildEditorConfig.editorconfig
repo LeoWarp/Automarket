@@ -43,12 +43,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leowa/Desktop/Кликай/Automarket/Automarket/Views/Profile/ProfileInfo.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxQcm9maWxlSW5mby5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/leowa/Desktop/Кликай/Automarket/Automarket/Views/Profile/Save.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxTYXZlLmNzaHRtbA==
+[C:/Users/leowa/Desktop/Кликай/Automarket/Automarket/Views/Profile/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/leowa/Desktop/Кликай/Automarket/Automarket/Views/Shared/Error.cshtml]
