@@ -1,6 +1,26 @@
-﻿@{
-    ViewBag.Title = "title";
-    Layout = "_Layout";
+﻿@model Automarket.Domain.ViewModels.Profile.ProfileViewModel
+
+@{
+    var age = @Model.Age;
+    var address = @Model.Address ?? "Пусто";
 }
 
-<h2>title</h2>
+<div class="card col-md-12" style="margin: 10px;">
+    <div class="card-buttons-group">
+        <button class='btn btn-primary' id='addProfileCardId'>Добавить</button>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Данные профиля</h5>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Возраст: @age</li>
+                    <li class="list-group-item">Адрес: @address</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

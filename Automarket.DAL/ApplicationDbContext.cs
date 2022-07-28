@@ -49,8 +49,8 @@ namespace Automarket.DAL
                 
                 builder.Property(x => x.Id).ValueGeneratedOnAdd();
 
-                builder.Property(x => x.Age).IsRequired();
-                builder.Property(x => x.Address).HasMaxLength(200).IsRequired();
+                builder.Property(x => x.Age);
+                builder.Property(x => x.Address).HasMaxLength(200).IsRequired(false);
             });
         }
     }

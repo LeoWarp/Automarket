@@ -1,4 +1,5 @@
-﻿using Automarket.Service.Interfaces;
+﻿using System.Threading.Tasks;
+using Automarket.Service.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Automarket.Controllers
@@ -12,9 +13,14 @@ namespace Automarket.Controllers
             _profileService = profileService;
         }
 
-        public IActionResult Detail()
+        public async Task<IActionResult> Detail()
         {
-            _profileService.GetProfile("ITHomester");
+            var userName = User.Identity.Name;
+            var response = await _profileService.GetProfile(userName);
+            if (response.StatusCode == Domain.Enum.StatusCode.OK)
+            {
+                return View(response.Data);   
+            }
             return View();
         }
     }
