@@ -28,13 +28,29 @@
 @section pageScripts
 {
     <script>
-        $('#saveProfileId').on("click", function () {
+        $('#saveProfileId').on('click', function () {
             const data = $('#profileFormId').serialize();
             $.ajax({
+                url: '@Url.Action("Save", "Profile")',
                 type: 'POST',
-                url: '@Url.Action("Save")',
-                data: data
-            })
+                data: data,
+                success: function (response) {
+                    Swal.fire({
+                        title: 'Информация',
+                        text: response.description,
+                        icon: 'success',
+                        confirmButtonText: 'Окей'
+                    })
+                },
+                failure: function (response) {
+                    Swal.fire({
+                        title: 'Информация',
+                        text: response.description,
+                        icon: 'error',
+                        confirmButtonText: 'Окей'
+                    })
+                }
+            });
         });
     </script>
 }

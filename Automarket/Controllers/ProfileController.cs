@@ -20,9 +20,13 @@ namespace Automarket.Controllers
             ModelState.Remove("UserName");
             if (ModelState.IsValid)
             {
-                await _profileService.Save(model);
+                var response = await _profileService.Save(model);
+                if (response.StatusCode == Domain.Enum.StatusCode.OK)
+                {
+                    return Json(new { data = response.Description });
+                }
             }
-            return RedirectToAction("Detail");
+            return BadRequest();
         }
         
         public async Task<IActionResult> Detail()

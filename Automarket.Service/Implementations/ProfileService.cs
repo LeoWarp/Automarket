@@ -72,6 +72,7 @@ namespace Automarket.Service.Implementations
                 return new BaseResponse<Profile>()
                 {
                     Data = profile,
+                    Description = "Данные обновлены",
                     StatusCode = StatusCode.OK
                 };
             }
