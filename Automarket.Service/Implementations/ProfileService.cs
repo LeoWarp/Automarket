@@ -33,6 +33,7 @@ namespace Automarket.Service.Implementations
                 var profile = await _profileRepository.GetAll()
                     .Select(x => new ProfileViewModel()
                     {
+                        Id = x.Id,
                         Address = x.Address,
                         Age = x.Age,
                         UserName = x.User.Name
@@ -49,6 +50,35 @@ namespace Automarket.Service.Implementations
             {
                 _logger.LogError(ex, $"[ProfileService.GetProfile] error: {ex.Message}");
                 return new BaseResponse<ProfileViewModel>()
+                {
+                    StatusCode = StatusCode.InternalServerError,
+                    Description = $"Внутренняя ошибка: {ex.Message}"
+                };
+            }
+        }
+
+        public async Task<BaseResponse<Profile>> Save(ProfileViewModel model)
+        {
+            try
+            {
+                var profile = await _profileRepository.GetAll()
+                    .FirstOrDefaultAsync(x => x.Id == model.Id);
+
+                profile.Address = model.Address;
+                profile.Age = model.Age;
+
+                await _profileRepository.Update(profile);
+
+                return new BaseResponse<Profile>()
+                {
+                    Data = profile,
+                    StatusCode = StatusCode.OK
+                };
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, $"[ProfileService.Save] error: {ex.Message}");
+                return new BaseResponse<Profile>()
                 {
                     StatusCode = StatusCode.InternalServerError,
                     Description = $"Внутренняя ошибка: {ex.Message}"

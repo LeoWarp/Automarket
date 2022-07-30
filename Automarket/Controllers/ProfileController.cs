@@ -1,4 +1,5 @@
 ﻿using System.Threading.Tasks;
+using Automarket.Domain.ViewModels.Profile;
 using Automarket.Service.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,6 +14,17 @@ namespace Automarket.Controllers
             _profileService = profileService;
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Save(ProfileViewModel model)
+        {
+            ModelState.Remove("UserName");
+            if (ModelState.IsValid)
+            {
+                await _profileService.Save(model);
+            }
+            return RedirectToAction("Detail");
+        }
+        
         public async Task<IActionResult> Detail()
         {
             var userName = User.Identity.Name;
