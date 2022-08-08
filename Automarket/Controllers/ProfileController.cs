@@ -1,7 +1,11 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Linq;
+using System.Threading.Tasks;
 using Automarket.Domain.ViewModels.Profile;
 using Automarket.Service.Interfaces;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace Automarket.Controllers
 {
@@ -23,10 +27,10 @@ namespace Automarket.Controllers
                 var response = await _profileService.Save(model);
                 if (response.StatusCode == Domain.Enum.StatusCode.OK)
                 {
-                    return Json(new { data = response.Description });
+                    return Json(new { description = response.Description });
                 }
             }
-            return BadRequest();
+            return StatusCode(StatusCodes.Status500InternalServerError);
         }
         
         public async Task<IActionResult> Detail()

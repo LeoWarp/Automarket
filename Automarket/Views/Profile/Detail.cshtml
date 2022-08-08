@@ -1,5 +1,9 @@
 ﻿@model Automarket.Domain.ViewModels.Profile.ProfileViewModel
 
+@{
+    ViewBag.Title = "Профиль";
+    Layout = "_Layout";
+}
 <br />
 <div class="row">
     <div class="col-sm-6">
@@ -11,10 +15,12 @@
                     <div class="mb-3">
                         <label class="form-label text-black-50">Возраст</label>
                         <input type="text" class="form-control" asp-for="Age">
+                        <div class="form-text">Возраст должен быть указан от 0 до 150 лет.</div>
                     </div>
                     <div class="mb-3">
                         <label class="form-label text-black-50">Адрес</label>
                         <textarea class="form-control" asp-for="Address" rows="3"></textarea>
+                        <div class="form-text">Длина адреса должна быть от 5 до 200 символов.</div>
                     </div>
                     <div class="card-buttons-group">
                         <button class='btn btn-primary' id='saveProfileId'>Сохранить</button>
@@ -27,9 +33,10 @@
 
 @section pageScripts
 {
-    <script>
-        $('#saveProfileId').on('click', function () {
-            const data = $('#profileFormId').serialize();
+    <script>    
+        $('#saveProfileId').on('click', function (e) {
+            e.preventDefault();
+            const data = $('#profileFormId').serialize()
             $.ajax({
                 url: '@Url.Action("Save", "Profile")',
                 type: 'POST',
@@ -42,10 +49,10 @@
                         confirmButtonText: 'Окей'
                     })
                 },
-                failure: function (response) {
+                error: function (data) {
                     Swal.fire({
                         title: 'Информация',
-                        text: response.description,
+                        text: 'Ошибка валидации',
                         icon: 'error',
                         confirmButtonText: 'Окей'
                     })

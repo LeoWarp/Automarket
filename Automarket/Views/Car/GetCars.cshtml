@@ -131,6 +131,22 @@ else
                url: '@Url.Action("Save")',
                type: 'POST',
                data: JSON.stringify(model),
+               success: function (response) {
+                   Swal.fire({
+                       title: 'Информация',
+                       text: response.description,
+                       icon: 'success',
+                       confirmButtonText: 'Окей'
+                   })
+               },
+               error: function (data) {
+                   Swal.fire({
+                       title: 'Информация',
+                       text: 'Ошибка валидации',
+                       icon: 'error',
+                       confirmButtonText: 'Окей'
+                   })
+               }
            }) 
         });
         

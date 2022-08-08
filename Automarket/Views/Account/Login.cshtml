@@ -22,6 +22,7 @@
                                 <div asp-validation-summary="All" style="font-size:23px; font-family:Impact" class="text-danger text-center"></div>
                                 <div class="form-group">
                                     <input asp-for="Name" placeholder="Логин" class="form-control textbox-dg font-weight-bold text-center" type="text">
+                                    <div class="form-text">Длина логина должна быть от 3 до 20 символов.</div>
                                 </div>
                                 <div class="form-group">
                                     <input autocomplete="new-password" asp-for="Password" placeholder="Пароль" class="form-control textbox-dg font-weight-bold text-center" type="password">
