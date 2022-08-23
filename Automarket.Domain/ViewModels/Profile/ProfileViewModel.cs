@@ -16,5 +16,7 @@ namespace Automarket.Domain.ViewModels.Profile
         public string Address { get; set; }
         
         public string UserName { get; set; }
+
+        public string NewPassword { get; set; }
     }
 }
