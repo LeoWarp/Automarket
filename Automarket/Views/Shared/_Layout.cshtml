@@ -65,29 +65,9 @@
                 @if (User.IsInRole("Admin"))
                 {
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle paragraphLayout active text-black" href="#" data-toggle="dropdown" style="font-family:'Comic Sans MS'; font-weight: bold;">
+                        <a class="nav-link paragraphLayout active text-black" asp-controller="User" asp-action="GetUsers" style="font-family:'Comic Sans MS'; font-weight: bold;">
                             Админ
                         </a>
-                        <div class="dropdown-menu">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <ul class="nav flex-column paragraphHome">
-                                            <li class="nav-item text-center">
-                                                <a class="nav-link active text-white" asp-controller="Car" asp-action="Save">
-                                                    Добавление
-                                                </a>
-                                            </li>
-                                             <li class="nav-item text-center">
-                                                <a class="nav-link active text-white" asp-controller="User" asp-action="GetUsers">
-                                                    Пользователи
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </li>   
                 }
             </ul>
@@ -137,6 +117,7 @@
 <script src="~/js/site.js" asp-append-version="true"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
 <script src="~/js/modal.js"></script>
+
 @await RenderSectionAsync("pageScripts", required: false)
 </body>
 </html>

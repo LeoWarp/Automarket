@@ -1,11 +1,15 @@
-﻿using System.Security.Claims;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using Automarket.Domain.Response;
 using Automarket.Domain.ViewModels.Account;
 using Automarket.Service.Interfaces;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace Automarket.Controllers
 {
@@ -78,7 +82,9 @@ namespace Automarket.Controllers
                     return Json(new { description = response.Description });
                 }
             }
-            return StatusCode(StatusCodes.Status500InternalServerError);
+            var modelError = ModelState.Values.SelectMany(v => v.Errors);
+            
+            return StatusCode(StatusCodes.Status500InternalServerError, new { modelError.FirstOrDefault().ErrorMessage });
         }
     }
 }
