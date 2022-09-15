@@ -49,6 +49,12 @@ namespace Automarket.DAL
                 
                 builder.Property(x => x.Id).ValueGeneratedOnAdd();
 
+                builder.HasData(new Profile()
+                {
+                    Id = 1,
+                    UserId = 1
+                });
+                
                 builder.Property(x => x.Age);
                 builder.Property(x => x.Address).HasMaxLength(200).IsRequired(false);
             });
