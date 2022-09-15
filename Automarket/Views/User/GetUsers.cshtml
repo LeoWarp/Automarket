@@ -5,6 +5,15 @@
     ViewBag.Title = "Пользователи";
 }
 
+<div class="card col-md-12" style="margin: 10px;">
+    <div class="card-buttons-group">
+        @if (User.IsInRole("Admin"))
+        {
+            <button class='btn btn-success' id='addUserId'>Добавить</button>   
+        }
+    </div>
+</div>
+
 <div style="padding: 10px;"></div>
 <div class="card col-md-12">
     <table class="table table-striped">
@@ -44,20 +53,47 @@
 
 @section pageScripts
 {
+    <script src="~/js/modal.js"></script>
     <script>
-        function model() {
-            return {
-                name: $('input#Name').val(),
-                role: $('#selectRoleId').val(),
-                address: $('textarea#Address').val(),
-            }
-        };
+        let modal = $('#modal'); 
+        
+        $('#addUserId').on('click', function () {
+           $.ajax({
+              type: 'GET',
+              url : '@Url.Action("Save")',
+              success: function (response) {
+                  modal.find(".modal-body").html(response);
+                  modal.modal('show')
+              },
+              failure: function () {
+                modal.modal('hide')
+              }
+          });
+       });
         
        $('#saveBtn').on('click', function () {
+           const data = $('#formSaveUser').serialize()
            $.ajax({
                type: 'POST',
-               data: model(),
-           }) 
+               url: '@Url.Action("Save")',
+               data: data,
+               success: function (data) {
+                   Swal.fire({
+                       title: 'Информация',
+                       text: data.description,
+                       icon: 'success',
+                       confirmButtonText: 'Окей'
+                   })
+               },
+               error: function (response) {
+                   Swal.fire({
+                       title: 'Информация',
+                       text: response.responseJSON.errorMessage,
+                       icon: 'error',
+                       confirmButtonText: 'Окей'
+                   })
+               }
+           })
       });
     </script>
 }

@@ -3,6 +3,7 @@
     public enum StatusCode
     {
         UserNotFound = 0,
+        UserAlreadyExists = 1,
         
         CarNotFound = 10,
 
