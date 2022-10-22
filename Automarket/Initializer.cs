@@ -14,6 +14,8 @@ namespace Automarket
             services.AddScoped<IBaseRepository<Car>, CarRepository>();
             services.AddScoped<IBaseRepository<User>, UserRepository>();
             services.AddScoped<IBaseRepository<Profile>, ProfileRepository>();
+            services.AddScoped<IBaseRepository<Basket>, BasketRepository>();
+            services.AddScoped<IBaseRepository<Order>, OrderRepository>();
         }
 
         public static void InitializeServices(this IServiceCollection services)
@@ -22,6 +24,8 @@ namespace Automarket
             services.AddScoped<IAccountService, AccountService>();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IProfileService, ProfileService>();
+            services.AddScoped<IBasketService, BasketService>();
+            services.AddScoped<IOrderService, OrderService>();
         }
     }
 }
