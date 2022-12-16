@@ -45,7 +45,7 @@ namespace Automarket.Service.Implementations
             }
         }
         
-        public async Task<IBaseResponse<CarViewModel>> GetCar(int id)
+        public async Task<IBaseResponse<CarViewModel>> GetCar(long id)
         {
             try
             {
@@ -153,7 +153,7 @@ namespace Automarket.Service.Implementations
             }
         }
 
-        public async Task<IBaseResponse<bool>> DeleteCar(int id)
+        public async Task<IBaseResponse<bool>> DeleteCar(long id)
         {
             try
             {
@@ -168,7 +168,7 @@ namespace Automarket.Service.Implementations
                     };
                 }
 
-                /*await _carRepository.Delete(car);*/
+                await _carRepository.Delete(car);
 
                 return new BaseResponse<bool>()
                 {
