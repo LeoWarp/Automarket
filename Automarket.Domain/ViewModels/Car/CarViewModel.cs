@@ -6,7 +6,7 @@ namespace Automarket.Domain.ViewModels.Car
 {
     public class CarViewModel
     {
-        public int Id { get; set; }
+        public long Id { get; set; }
         
         [Display(Name = "Название")]
         [Required(ErrorMessage = "Введите имя")]

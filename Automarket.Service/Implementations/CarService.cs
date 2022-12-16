@@ -87,9 +87,9 @@ namespace Automarket.Service.Implementations
             }
         }
 
-        public async Task<BaseResponse<Dictionary<int, string>>> GetCar(string term)
+        public async Task<BaseResponse<Dictionary<long, string>>> GetCar(string term)
         {
-            var baseResponse = new BaseResponse<Dictionary<int, string>>();
+            var baseResponse = new BaseResponse<Dictionary<long, string>>();
             try
             {
                 var cars = await _carRepository.GetAll()
@@ -112,7 +112,7 @@ namespace Automarket.Service.Implementations
             }
             catch (Exception ex)
             {
-                return new BaseResponse<Dictionary<int, string>>()
+                return new BaseResponse<Dictionary<long, string>>()
                 {
                     Description = ex.Message,
                     StatusCode = StatusCode.InternalServerError
@@ -186,7 +186,7 @@ namespace Automarket.Service.Implementations
             }
         }
 
-        public async Task<IBaseResponse<Car>> Edit(int id, CarViewModel model)
+        public async Task<IBaseResponse<Car>> Edit(long id, CarViewModel model)
         {
             try
             {

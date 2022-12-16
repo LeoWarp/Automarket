@@ -104,6 +104,7 @@ else
                              {
                                  <a asp-controller="Car" asp-action="Delete" asp-route-id="@car.Id" class="btn btn-danger">Удалить</a>
                              }
+                             <a asp-controller="Order" asp-action="CreateOrder" asp-route-id="@car.Id" class="btn btn-success">В корзину</a>
                         </div>
                     </div>
                 </div>
@@ -117,20 +118,12 @@ else
     <script src="~/js/modal.js"></script>
     <script>
        let modal = $('#modal'); 
-       
+
        $('#saveBtn').on('click', function () {
-           const model = {
-              name: $('input#Name').val(),
-              model: $('input#Model').val(),
-              price: $('input#Price').val(),
-              description: $('input#Description').val(),
-              avatar: $('input#Avatar').val(),    
-          };
-           
            $.ajax({
                url: '@Url.Action("Save")',
                type: 'POST',
-               data: JSON.stringify(model),
+               // data: JSON.stringify(model),
                success: function (response) {
                    Swal.fire({
                        title: 'Информация',
