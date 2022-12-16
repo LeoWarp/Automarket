@@ -5,31 +5,37 @@ namespace Automarket.DAL.Repositories
 {
     public class BasketRepository : IBaseRepository<Basket>
     {
-        private readonly ApplicationDbContext _dbContext;
+        private readonly ApplicationDbContext _db;
 
         public BasketRepository(ApplicationDbContext dbContext)
         {
-            _dbContext = dbContext;
+            _db = dbContext;
+        }
+
+        public async Task Create(Basket entity)
+        {
+            await _db.Baskets.AddAsync(entity);
+            await _db.SaveChangesAsync();
         }
 
         public IQueryable<Basket> GetAll()
         {
-            return _dbContext.Baskets;
+            return _db.Baskets;
         }
 
-        public Task Delete(Basket entity)
+        public async Task Delete(Basket entity)
         {
-            throw new NotImplementedException();
+            _db.Baskets.Remove(entity);
+            await _db.SaveChangesAsync();
         }
 
-        public Task<Basket> Update(Basket entity)
+        public async Task<Basket> Update(Basket entity)
         {
-            throw new NotImplementedException();
+            _db.Baskets.Update(entity);
+            await _db.SaveChangesAsync();
+
+            return entity;
         }
-        
-        public Task Create(Basket entity)
-        {
-            throw new NotImplementedException();
-        }
+
     }   
 }
