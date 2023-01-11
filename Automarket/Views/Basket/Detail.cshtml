@@ -41,7 +41,8 @@ else
             <div class="row row-cols-1 @cardStyle text-center">
                 <div class="col" style="padding: 10px;">
                     <div class="card">
-                        @*<img src="~/img/Mustang.jpg" class="card-img-top card-image" alt="@car.Name">*@
+                        <img src="data:image/jpeg;base64,@Convert.ToBase64String(item?.Image ?? Array.Empty<byte>())"
+                             class="img-fluid rounded-start rounded">
                         <div class="card-body">
                             <h5 class="card-title">Название автомобиля: @item.CarName</h5>
                             <p class="card-text">Тип: @item.TypeCar</p>

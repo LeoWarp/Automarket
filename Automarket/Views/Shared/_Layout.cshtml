@@ -100,21 +100,33 @@
 </div>
 
 <div class="modal fade" id="modal" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Информация</h5>
-      </div>
-        <div class="modal-body"></div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-close btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-            @if (User.IsInRole("Admin"))
-            {
-                <button type="button" class="btn btn-primary" id="saveBtn">Сохранить</button>   
-            }
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Информация</h5>
+            </div>
+            <div class="modal-body"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-close btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                @if (User.IsInRole("Admin"))
+                {
+                    <button type="button" class="btn btn-primary" id="saveBtn">Сохранить</button>   
+                }
+            </div>
         </div>
     </div>
-  </div>
+</div>
+
+<div class="modal fade" id="modalWhButtons" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Информация</h5>
+            </div>
+            <div class="modal-body"></div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
 </div>
 
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>

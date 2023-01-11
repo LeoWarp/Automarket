@@ -117,32 +117,8 @@ else
 
     <script src="~/js/modal.js"></script>
     <script>
-       let modal = $('#modal'); 
-
-       $('#saveBtn').on('click', function () {
-           $.ajax({
-               url: '@Url.Action("Save")',
-               type: 'POST',
-               // data: JSON.stringify(model),
-               success: function (response) {
-                   Swal.fire({
-                       title: 'Информация',
-                       text: response.description,
-                       icon: 'success',
-                       confirmButtonText: 'Окей'
-                   })
-               },
-               error: function (data) {
-                   Swal.fire({
-                       title: 'Информация',
-                       text: 'Ошибка валидации',
-                       icon: 'error',
-                       confirmButtonText: 'Окей'
-                   })
-               }
-           }) 
-        });
-        
+       let modal = $('#modalWhButtons'); 
+       
        $('#compareBtnId').on('click', function (){
            $.ajax({
                type: 'GET',

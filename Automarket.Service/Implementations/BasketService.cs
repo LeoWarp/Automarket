@@ -47,7 +47,8 @@ public class BasketService : IBasketService
                     CarName = c.Name,
                     Speed = c.Speed,
                     TypeCar = c.TypeCar.GetDisplayName(),
-                    Model = c.Model
+                    Model = c.Model,
+                    Image = c.Avatar
                 };
 
             return new BaseResponse<IEnumerable<OrderViewModel>>()
@@ -107,7 +108,8 @@ public class BasketService : IBasketService
                     FirstName = p.FirstName,
                     LastName = p.LastName,
                     MiddleName = p.MiddleName,
-                    DateCreate = p.DateCreated.ToLongDateString()
+                    DateCreate = p.DateCreated.ToLongDateString(),
+                    Image = c.Avatar
                 }).FirstOrDefault();
             
             return new BaseResponse<OrderViewModel>()

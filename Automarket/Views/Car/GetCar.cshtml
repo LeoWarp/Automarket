@@ -1,12 +1,10 @@
 ﻿@model Automarket.Domain.ViewModels.Car.CarViewModel
 
-
-@*data:image/jpeg;base64,@Convert.ToBase64String(Model?.Image ?? Array.Empty<byte>())*@
 <form>
     <div class="row">
         <div class="col-md-12">
-            <img src="https://images.wallpaperscraft.ru/image/single/zdaniia_ogni_svechenie_279703_300x168.jpg"
-                 class="img-fluid rounded-start rounded" alt="@Model?.Name">
+            <img src="data:image/jpeg;base64,@Convert.ToBase64String(Model?.Image ?? Array.Empty<byte>())"
+                 class="img-fluid rounded-start rounded">
         </div>
     </div>
     <div class="row">

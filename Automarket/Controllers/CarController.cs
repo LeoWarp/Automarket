@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Automarket.Domain.Extensions;
@@ -58,31 +59,28 @@ namespace Automarket.Controllers
             return PartialView();
         }
 
-        // string Name, string Model, double Speed, string Description, decimal Price, string TypeCar, IFormFile Avatar
         [HttpPost]
-        public async Task<IActionResult> Save(CarViewModel model)
+        public async Task<IActionResult> Save(CarViewModel viewModel)
         {
+            ModelState.Remove("Id");
             ModelState.Remove("DateCreate");
             if (ModelState.IsValid)
             {
-                if (model.Id == 0)
+                if (viewModel.Id == 0)
                 {
                     byte[] imageData;
-                    using (var binaryReader = new BinaryReader(model.Avatar.OpenReadStream()))
+                    using (var binaryReader = new BinaryReader(viewModel.Avatar.OpenReadStream()))
                     {
-                        imageData = binaryReader.ReadBytes((int)model.Avatar.Length);
+                        imageData = binaryReader.ReadBytes((int)viewModel.Avatar.Length);
                     }
-                    await _carService.Create(model, imageData);
+                    await _carService.Create(viewModel, imageData);
                 }
                 else
                 {
-                    await _carService.Edit(model.Id, model);
+                    await _carService.Edit(viewModel.Id, viewModel);
                 }
-                return RedirectToAction("GetCars");   
             }
-            var errorMessage = ModelState.Values
-                .SelectMany(v => v.Errors.Select(x => x.ErrorMessage)).ToList().Join();
-            return StatusCode(StatusCodes.Status500InternalServerError, new { errorMessage });
+            return RedirectToAction("GetCars");
         }
         
         
@@ -98,7 +96,7 @@ namespace Automarket.Controllers
         }
         
         [HttpPost]
-        public async Task<IActionResult> GetCar(string term, int page = 1, int pageSize = 5)
+        public async Task<IActionResult> GetCar(string term)
         {
             var response = await _carService.GetCar(term);
             return Json(response.Data);

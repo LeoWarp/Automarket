@@ -4,6 +4,7 @@ namespace Automarket.Domain.ViewModels.Account
 {
     public class ChangePasswordViewModel
     {
+        [Required(ErrorMessage = "Укажите имя")]
         public string UserName { get; set; }
         
         [Required(ErrorMessage = "Введите пароль")]

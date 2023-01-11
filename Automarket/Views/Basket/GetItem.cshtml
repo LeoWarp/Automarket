@@ -1,6 +1,10 @@
 ﻿@model Automarket.Domain.ViewModels.Order.OrderViewModel
 
 <div class="row">
+    <div class="col-md-12">
+        <img src="data:image/jpeg;base64,@Convert.ToBase64String(Model?.Image ?? Array.Empty<byte>())"
+             class="img-fluid rounded-start rounded">
+    </div>
     <div class="col-md-6">
         <ul class="list-group list-group-flush">
             <li class="list-group-item">Авто: @Model.CarName</li>

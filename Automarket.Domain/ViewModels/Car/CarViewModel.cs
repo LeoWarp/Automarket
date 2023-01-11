@@ -30,7 +30,7 @@ namespace Automarket.Domain.ViewModels.Car
         [Display(Name = "Стоимость")]
         [Required(ErrorMessage = "Укажите стоимость")]
         public decimal Price { get; set; }
-        
+
         public string DateCreate { get; set; }
         
         [Display(Name = "Тип автомобиля")]

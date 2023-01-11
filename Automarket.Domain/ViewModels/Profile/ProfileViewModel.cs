@@ -15,8 +15,7 @@ namespace Automarket.Domain.ViewModels.Profile
         [MaxLength(200, ErrorMessage = "Максимальная длина должна быть меньше 200 символов")]
         public string Address { get; set; }
         
+        [Required(ErrorMessage = "Укажите имя")]
         public string UserName { get; set; }
-
-        public string NewPassword { get; set; }
     }
 }

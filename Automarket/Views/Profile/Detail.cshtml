@@ -41,7 +41,7 @@
                     </div>
                     <div class="mb-3">
                         <label class="form-label text-black-50">Новый пароль</label>
-                        <input asp-for="NewPassword" class="form-control textbox-dg font-weight-bold text-center" type="password">
+                        <input name="NewPassword" class="form-control textbox-dg font-weight-bold text-center" type="password">
                     </div>
                     <div class="card-buttons-group">
                         <button class='btn btn-primary' id='saveAccountId'>Сохранить</button>
@@ -105,7 +105,11 @@
         
         $('#saveAccountId').on('click', function (e) {
             e.preventDefault();
+            
+            $('#UserName').removeAttr('disabled')
             const data = $('#accountFormId').serialize()
+            $('#UserName').attr('disabled', 'disabled')
+            
             $.ajax({
                 url: '@Url.Action("ChangePassword", "Account")',
                 type: 'POST',

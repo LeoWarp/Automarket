@@ -50,7 +50,7 @@ namespace Automarket.Controllers
             var response = await _orderService.Delete(id);
             if (response.StatusCode == Domain.Enum.StatusCode.OK)
             {
-                return RedirectToAction("Detail", "Basket");
+                return RedirectToAction("Index", "Home");
             }
             return View("Error", $"{response.Description}");
         }
