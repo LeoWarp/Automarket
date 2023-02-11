@@ -69,8 +69,8 @@ namespace Automarket.Service.Implementations
             try
             {
                 var order = _orderRepository.GetAll()
-                    .Select(x => x.Basket.Orders.FirstOrDefault(y => y.Id == id))
-                    .FirstOrDefault();
+                    .Include(x => x.Basket)
+                    .FirstOrDefault(x => x.Id == id);
             
                 if (order == null)
                 {

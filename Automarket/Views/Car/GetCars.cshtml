@@ -88,7 +88,7 @@ else
             <div class="row row-cols-1 @cardStyle text-center">
                 <div class="col" style="padding: 10px;">
                     <div class="card">
-                        <img src="~/img/Mustang.jpg" class="card-img-top card-image" alt="@car.Name">
+                        <img src="data:image/jpeg;base64,@Convert.ToBase64String(car?.Avatar ?? Array.Empty<byte>())" alt="@car.Name" />
                         <div class="card-body">
                             <h5 class="card-title">Название: @car.Name</h5>
                             <p class="card-text">Краткое описание: @car.Description.Substring(0, 40) ...</p>
@@ -100,11 +100,11 @@ else
                         <div class="card-body">
                             <button class="btn btn-primary" onclick="openModal({ url: '/Car/GetCar', data: '@car.Id' })"
                                     data-toggle="ajax-modal" data-target="Modal">Открыть</button>
-                             @if (User.IsInRole("Admin"))
-                             {
-                                 <a asp-controller="Car" asp-action="Delete" asp-route-id="@car.Id" class="btn btn-danger">Удалить</a>
-                             }
-                             <a asp-controller="Order" asp-action="CreateOrder" asp-route-id="@car.Id" class="btn btn-success">В корзину</a>
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <a asp-controller="Car" asp-action="Delete" asp-route-id="@car.Id" class="btn btn-danger">Удалить</a>
+                            }
+                            <a asp-controller="Order" asp-action="CreateOrder" asp-route-id="@car.Id" class="btn btn-success">В корзину</a>
                         </div>
                     </div>
                 </div>
